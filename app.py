@@ -44,40 +44,68 @@ if raw_event_log is not None:
         st.dataframe(event_log_df)
 
 
+    tab1, tab2, tab3 = st.tabs(["DFGs", "Petri Nets", "Other Plots"])
+
+
     # # Visualisation tab
     @st.fragment
     def generate_dfgs():
+
+        def generate_dfg(final_log, graph_type, output_filepath="dfg.png"):
+                dfg, start_activities, end_activities = pm4py.discover_dfg(final_log)
+
+                if graph_type=="Activity":
+                    pm4py.save_vis_dfg(dfg, start_activities, end_activities, file_path=output_filepath)
+                elif graph_type=="Performance":
+                    pm4py.save_vis_performance_dfg(dfg, start_activities, end_activities, file_path=output_filepath)
+
+                st.image(output_filepath)
+
         viz_col_main, viz_col_selectors = st.columns([0.7, 0.3])
 
         with viz_col_selectors:
-            type = st.select_slider(label="Graph Type", options=["Activity", "Performance"])
+            graph_type = st.select_slider(label="Graph Type", options=["Activity", "Performance"])
 
             filter_top_variants = st.toggle("Filter Variants", value=False)
             if filter_top_variants:
                 top_variants = st.slider("Choose top variants to visualise",
                                          min_value=1, max_value=100, value=10)
 
+            facet_by_col = st.toggle("Facet by another variable?")
+            if facet_by_col:
+                facet_col = st.selectbox("Select the column of interest",
+                                         [i for i in df_colnames if i not in [case_id_col_name, activity_key_col_name, timestamp_key_col_name]])
+
         with viz_col_main:
 
-            if filter_top_variants:
-                final_log = pm4py.filter_variants_top_k(event_log_df, k=top_variants)
-            else:
-                final_log = event_log_df.copy()
+            generate_dfgs_button = st.button("Generate")
 
-            dfg, start_activities, end_activities = pm4py.discover_dfg(final_log)
+            if generate_dfgs_button:
 
-            if type=="Activity":
-                pm4py.save_vis_dfg(dfg, start_activities, end_activities, file_path="dfg.png")
-            elif type=="Performance":
-                pm4py.save_vis_performance_dfg(dfg, start_activities, end_activities, file_path="dfg.png")
+                if filter_top_variants:
+                    final_log = pm4py.filter_variants_top_k(event_log_df, k=top_variants)
+                else:
+                    final_log = event_log_df.copy()
 
-            st.image("dfg.png")
-
-
-
+                if facet_by_col:
+                    for i in final_log[facet_col].unique():
+                        category_log = pm4py.filter_event_attribute_values(
+                            final_log, facet_col, [i],
+                            level="case", retain=True
+                            )
+                        st.subheader(f"{i}")
+                        generate_dfg(category_log, graph_type=graph_type, output_filepath="dfg_{i}.png")
+                else:
+                    generate_dfg(final_log, graph_type=graph_type, output_filepath="dfg.png")
 
         # # Filter trace frequency
 
         # #
+    with tab1:
+        generate_dfgs()
 
-    generate_dfgs()
+    with tab2:
+        st.write("Coming Soon!")
+
+    with tab3:
+        st.write("Coming Soon!")
