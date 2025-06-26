@@ -66,7 +66,10 @@ if raw_event_log is not None:
 
             dfg, start_activities, end_activities = pm4py.discover_dfg(final_log)
 
-            pm4py.save_vis_dfg(dfg, start_activities, end_activities, file_path="dfg.png")
+            if type=="Activity":
+                pm4py.save_vis_dfg(dfg, start_activities, end_activities, file_path="dfg.png")
+            elif type=="Performance":
+                pm4py.save_vis_performance_dfg(dfg, start_activities, end_activities, file_path="dfg.png")
 
             st.image("dfg.png")
 
