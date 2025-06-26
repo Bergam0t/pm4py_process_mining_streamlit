@@ -1,0 +1,1422 @@
+trace_id,patient_id,elective_flag,service,suspected_diagnosis,event_name,timestamp,relative_time_days
+T001,P043,Elective,Orthopedics,M16,Treatment,01/09/2024 22:36:23,39
+T001,P043,Elective,Orthopedics,M16,Consultation,17/09/2024 16:52:18,55
+T001,P043,Elective,Orthopedics,M16,Discharge - home,22/09/2024 17:50:53,60
+T001,P043,Elective,Orthopedics,M16,Referral,24/07/2024 00:28:33,0
+T001,P043,Elective,Orthopedics,M16,Triage,29/07/2024 01:12:34,5
+T002,P069,Elective,Orthopedics,S72,Referral,01/03/2025 16:16:38,0
+T002,P069,Elective,Orthopedics,S72,Discharge - home,03/04/2025 00:08:42,32
+T002,P069,Elective,Orthopedics,S72,Echocardiogram,21/03/2025 14:19:27,19
+T003,P115,Emergency,Orthopedics,M17,Referral,13/08/2024 02:30:26,0
+T003,P115,Emergency,Orthopedics,M17,Triage,13/08/2024 06:02:35,0
+T003,P115,Emergency,Orthopedics,M17,Review,13/08/2024 12:19:04,0
+T003,P115,Emergency,Orthopedics,M17,Ultrasound,16/08/2024 05:04:19,3
+T003,P115,Emergency,Orthopedics,M17,Consultation,19/08/2024 22:53:41,6
+T003,P115,Emergency,Orthopedics,M17,Assessment,20/08/2024 00:53:21,6
+T003,P115,Emergency,Orthopedics,M17,Discharge - home,25/08/2024 13:39:45,12
+T004,P116,Emergency,Orthopedics,M54,Treatment,02/03/2025 01:31:01,10
+T004,P116,Emergency,Orthopedics,M54,Follow-up,02/03/2025 18:35:09,10
+T004,P116,Emergency,Orthopedics,M54,Discharge - home,03/03/2025 20:42:43,11
+T004,P116,Emergency,Orthopedics,M54,Referral,20/02/2025 00:05:17,0
+T004,P116,Emergency,Orthopedics,M54,Triage,20/02/2025 05:59:52,0
+T004,P116,Emergency,Orthopedics,M54,Review,20/02/2025 09:35:58,0
+T005,P020,Emergency,Cardiology,I10,Referral,01/08/2024 15:38:10,0
+T005,P020,Emergency,Cardiology,I10,Triage,01/08/2024 19:16:53,0
+T005,P020,Emergency,Cardiology,I10,Review,01/08/2024 22:07:23,0
+T005,P020,Emergency,Cardiology,I10,Assessment,02/08/2024 06:22:31,0
+T005,P020,Emergency,Cardiology,I10,Follow-up,11/08/2024 11:29:45,9
+T005,P020,Emergency,Cardiology,I10,Treatment,13/08/2024 14:32:50,11
+T005,P020,Emergency,Cardiology,I10,Consultation,14/08/2024 13:03:24,12
+T005,P020,Emergency,Cardiology,I10,Discharge - home,16/08/2024 19:09:56,15
+T006,P159,Elective,Cardiology,I25,Treatment,03/07/2024 14:02:20,12
+T006,P159,Elective,Cardiology,I25,Review,11/08/2024 14:38:55,51
+T006,P159,Elective,Cardiology,I25,Follow-up,11/09/2024 21:50:15,83
+T006,P159,Elective,Cardiology,I25,Triage,15/07/2024 08:53:10,24
+T006,P159,Elective,Cardiology,I25,Discharge - home,18/09/2024 01:23:07,89
+T006,P159,Elective,Cardiology,I25,Referral,20/06/2024 18:28:10,0
+T006,P159,Elective,Cardiology,I25,Consultation,23/07/2024 23:10:55,33
+T007,P119,Emergency,Cardiology,I20,Follow-up,08/04/2025 16:46:50,10
+T007,P119,Emergency,Cardiology,I20,Consultation,11/04/2025 13:40:05,13
+T007,P119,Emergency,Cardiology,I20,Treatment,14/04/2025 19:40:44,16
+T007,P119,Emergency,Cardiology,I20,Discharge - home,15/04/2025 17:40:11,17
+T007,P119,Emergency,Cardiology,I20,Referral,29/03/2025 13:05:02,0
+T007,P119,Emergency,Cardiology,I20,Triage,29/03/2025 15:30:50,0
+T007,P119,Emergency,Cardiology,I20,Review,29/03/2025 17:20:22,0
+T007,P119,Emergency,Cardiology,I20,Assessment,30/03/2025 23:47:35,1
+T008,P177,Elective,Cardiology,I48,Referral,03/05/2024 22:05:54,0
+T008,P177,Elective,Cardiology,I48,Discharge - home,03/06/2024 10:57:23,30
+T008,P177,Elective,Cardiology,I48,Review,18/05/2024 19:11:39,14
+T008,P177,Elective,Cardiology,I48,Assessment,22/05/2024 10:19:35,18
+T008,P177,Elective,Cardiology,I48,Triage,29/05/2024 23:27:29,26
+T009,P102,Emergency,Orthopedics,S72,Referral,10/03/2025 18:05:10,0
+T009,P102,Emergency,Orthopedics,S72,Triage,10/03/2025 21:08:21,0
+T009,P102,Emergency,Orthopedics,S72,Review,11/03/2025 02:50:20,0
+T009,P102,Emergency,Orthopedics,S72,Echocardiogram,15/03/2025 03:26:52,4
+T009,P102,Emergency,Orthopedics,S72,ECG,15/03/2025 12:21:19,4
+T009,P102,Emergency,Orthopedics,S72,Consultation,19/03/2025 14:41:57,8
+T009,P102,Emergency,Orthopedics,S72,Discharge - home,21/03/2025 21:35:12,11
+T010,P021,Elective,Cardiology,I10,Follow-up,19/06/2024 03:06:38,24
+T010,P021,Elective,Cardiology,I10,Discharge - home,20/06/2024 01:48:27,25
+T010,P021,Elective,Cardiology,I10,Referral,26/05/2024 01:18:05,0
+T011,P171,Emergency,Orthopedics,M54,Referral,01/02/2025 20:00:42,0
+T011,P171,Emergency,Orthopedics,M54,Triage,01/02/2025 23:35:10,0
+T011,P171,Emergency,Orthopedics,M54,Review,02/02/2025 00:55:25,0
+T011,P171,Emergency,Orthopedics,M54,Treatment,03/02/2025 00:54:02,1
+T011,P171,Emergency,Orthopedics,M54,Consultation,03/02/2025 15:03:10,1
+T011,P171,Emergency,Orthopedics,M54,Follow-up,11/02/2025 01:51:52,9
+T011,P171,Emergency,Orthopedics,M54,Discharge - care,12/02/2025 10:07:04,10
+T012,P094,Emergency,Cardiology,I25,Follow-up,03/12/2024 03:49:49,13
+T012,P094,Emergency,Cardiology,I25,Discharge - home,06/12/2024 20:16:31,17
+T012,P094,Emergency,Cardiology,I25,Blood Test,19/11/2024 10:45:57,-1
+T012,P094,Emergency,Cardiology,I25,Referral,19/11/2024 16:56:06,0
+T012,P094,Emergency,Cardiology,I25,Triage,19/11/2024 18:06:14,0
+T012,P094,Emergency,Cardiology,I25,Review,19/11/2024 19:55:33,0
+T012,P094,Emergency,Cardiology,I25,MRI,21/11/2024 05:56:58,1
+T013,P053,Elective,Cardiology,I50,Referral,07/12/2024 17:29:58,0
+T013,P053,Elective,Cardiology,I50,Discharge - home,09/02/2025 13:07:05,63
+T013,P053,Elective,Cardiology,I50,Ultrasound,13/12/2024 16:18:07,5
+T013,P053,Elective,Cardiology,I50,Follow-up,31/01/2025 10:10:10,54
+T014,P087,Emergency,Orthopedics,M17,Referral,03/07/2024 13:01:05,0
+T014,P087,Emergency,Orthopedics,M17,Triage,03/07/2024 17:14:06,0
+T014,P087,Emergency,Orthopedics,M17,Review,03/07/2024 21:26:09,0
+T014,P087,Emergency,Orthopedics,M17,Discharge - home,06/07/2024 13:15:54,3
+T015,P015,Emergency,Orthopedics,M79,Referral,02/11/2024 23:06:23,0
+T015,P015,Emergency,Orthopedics,M79,Triage,03/11/2024 05:22:20,0
+T015,P015,Emergency,Orthopedics,M79,Review,03/11/2024 09:42:38,0
+T015,P015,Emergency,Orthopedics,M79,Assessment,04/11/2024 06:55:05,1
+T015,P015,Emergency,Orthopedics,M79,Discharge - care,05/11/2024 10:31:53,2
+T016,P058,Emergency,Orthopedics,S72,Assessment,02/12/2024 16:15:45,10
+T016,P058,Emergency,Orthopedics,S72,Discharge - home,08/12/2024 12:56:57,16
+T016,P058,Emergency,Orthopedics,S72,Referral,22/11/2024 08:11:49,0
+T016,P058,Emergency,Orthopedics,S72,Bone Density Scan,22/11/2024 09:16:54,0
+T016,P058,Emergency,Orthopedics,S72,Triage,22/11/2024 13:18:59,0
+T016,P058,Emergency,Orthopedics,S72,Review,22/11/2024 18:25:26,0
+T016,P058,Emergency,Orthopedics,S72,Consultation,28/11/2024 16:51:15,6
+T017,P103,Emergency,Cardiology,I50,Referral,26/10/2024 06:22:49,0
+T017,P103,Emergency,Cardiology,I50,Triage,26/10/2024 11:42:29,0
+T017,P103,Emergency,Cardiology,I50,Review,26/10/2024 12:45:05,0
+T017,P103,Emergency,Cardiology,I50,Discharge - home,29/10/2024 21:47:50,3
+T018,P126,Emergency,Cardiology,I10,Referral,02/02/2025 06:57:35,0
+T018,P126,Emergency,Cardiology,I10,Triage,02/02/2025 12:26:46,0
+T018,P126,Emergency,Cardiology,I10,Review,02/02/2025 13:57:14,0
+T018,P126,Emergency,Cardiology,I10,Consultation,04/02/2025 15:25:03,2
+T018,P126,Emergency,Cardiology,I10,Follow-up,14/02/2025 17:47:42,12
+T018,P126,Emergency,Cardiology,I10,Discharge - home,15/02/2025 06:56:23,12
+T019,P080,Elective,Orthopedics,M79,Treatment,13/07/2024 23:46:42,20
+T019,P080,Elective,Orthopedics,M79,Triage,15/07/2024 06:47:21,21
+T019,P080,Elective,Orthopedics,M79,Discharge - home,21/07/2024 16:31:06,27
+T019,P080,Elective,Orthopedics,M79,Referral,23/06/2024 21:15:36,0
+T020,P002,Emergency,Cardiology,I50,Referral,11/08/2024 05:51:03,0
+T020,P002,Emergency,Cardiology,I50,Triage,11/08/2024 07:41:54,0
+T020,P002,Emergency,Cardiology,I50,Review,11/08/2024 10:39:59,0
+T020,P002,Emergency,Cardiology,I50,Discharge - care,14/08/2024 21:44:14,3
+T021,P137,Elective,Cardiology,I20,Assessment,03/08/2024 21:13:15,10
+T021,P137,Elective,Cardiology,I20,Discharge - care,10/08/2024 23:11:23,17
+T021,P137,Elective,Cardiology,I20,Referral,24/07/2024 11:01:29,0
+T021,P137,Elective,Cardiology,I20,Angiography,31/07/2024 11:51:17,7
+T022,P013,Elective,Orthopedics,M54,Review,02/08/2024 09:44:52,57
+T022,P013,Elective,Orthopedics,M54,Discharge - home,05/09/2024 11:20:56,91
+T022,P013,Elective,Orthopedics,M54,Referral,06/06/2024 09:15:42,0
+T022,P013,Elective,Orthopedics,M54,Triage,08/08/2024 10:58:54,63
+T022,P013,Elective,Orthopedics,M54,Consultation,14/06/2024 00:57:20,7
+T022,P013,Elective,Orthopedics,M54,Follow-up,17/07/2024 06:05:55,40
+T022,P013,Elective,Orthopedics,M54,Treatment,30/08/2024 05:06:36,84
+T023,P172,Emergency,Orthopedics,M17,Referral,20/01/2025 00:29:33,0
+T023,P172,Emergency,Orthopedics,M17,Triage,20/01/2025 04:42:59,0
+T023,P172,Emergency,Orthopedics,M17,Review,20/01/2025 08:28:50,0
+T023,P172,Emergency,Orthopedics,M17,CT Scan,20/01/2025 10:12:34,0
+T023,P172,Emergency,Orthopedics,M17,Treatment,23/01/2025 15:33:38,3
+T023,P172,Emergency,Orthopedics,M17,Discharge - home,24/01/2025 02:37:02,4
+T024,P090,Elective,Orthopedics,M17,Referral,09/06/2024 11:23:20,0
+T024,P090,Elective,Orthopedics,M17,Review,15/07/2024 00:19:54,35
+T024,P090,Elective,Orthopedics,M17,Follow-up,15/09/2024 04:21:37,97
+T024,P090,Elective,Orthopedics,M17,Consultation,24/09/2024 18:16:16,107
+T024,P090,Elective,Orthopedics,M17,Triage,27/09/2024 13:54:24,110
+T024,P090,Elective,Orthopedics,M17,Discharge - deceased,30/09/2024 17:56:37,113
+T025,P035,Elective,Cardiology,I10,Follow-up,01/11/2024 15:49:23,29
+T025,P035,Elective,Cardiology,I10,Referral,03/10/2024 13:17:18,0
+T025,P035,Elective,Cardiology,I10,ECG,08/10/2024 03:24:31,4
+T025,P035,Elective,Cardiology,I10,Treatment,11/11/2024 21:31:10,39
+T025,P035,Elective,Cardiology,I10,Triage,18/11/2024 14:56:55,46
+T025,P035,Elective,Cardiology,I10,Discharge - home,21/11/2024 10:15:11,48
+T026,P045,Emergency,Cardiology,I25,Follow-up,01/09/2024 17:37:40,10
+T026,P045,Emergency,Cardiology,I25,Discharge - home,03/09/2024 09:33:27,12
+T026,P045,Emergency,Cardiology,I25,Referral,21/08/2024 20:41:03,0
+T026,P045,Emergency,Cardiology,I25,Triage,21/08/2024 21:58:10,0
+T026,P045,Emergency,Cardiology,I25,Review,22/08/2024 01:14:27,0
+T026,P045,Emergency,Cardiology,I25,Assessment,24/08/2024 09:31:32,2
+T026,P045,Emergency,Cardiology,I25,Consultation,26/08/2024 18:42:13,4
+T027,P171,Emergency,Orthopedics,S72,Referral,14/05/2024 15:59:26,0
+T027,P171,Emergency,Orthopedics,S72,Triage,14/05/2024 16:23:46,0
+T027,P171,Emergency,Orthopedics,S72,Review,14/05/2024 20:45:25,0
+T027,P171,Emergency,Orthopedics,S72,Consultation,16/05/2024 02:56:10,1
+T027,P171,Emergency,Orthopedics,S72,Follow-up,16/06/2024 10:55:55,32
+T027,P171,Emergency,Orthopedics,S72,Discharge - home,20/06/2024 08:37:43,36
+T028,P113,Emergency,Orthopedics,M54,Referral,23/10/2024 13:17:44,0
+T028,P113,Emergency,Orthopedics,M54,Triage,23/10/2024 16:09:51,0
+T028,P113,Emergency,Orthopedics,M54,Review,23/10/2024 18:43:04,0
+T028,P113,Emergency,Orthopedics,M54,Discharge - home,26/10/2024 23:23:00,3
+T029,P158,Emergency,Orthopedics,M79,Referral,12/08/2024 20:12:21,0
+T029,P158,Emergency,Orthopedics,M79,Triage,12/08/2024 21:06:19,0
+T029,P158,Emergency,Orthopedics,M79,Review,13/08/2024 01:35:23,0
+T029,P158,Emergency,Orthopedics,M79,Ultrasound,13/08/2024 13:45:02,0
+T029,P158,Emergency,Orthopedics,M79,Discharge - home,14/08/2024 03:13:46,1
+T030,P042,Elective,Cardiology,I25,Referral,17/04/2024 12:47:00,0
+T030,P042,Elective,Cardiology,I25,Discharge - home,20/04/2024 01:05:01,2
+T031,P198,Emergency,Cardiology,I10,Referral,21/12/2024 16:14:27,0
+T031,P198,Emergency,Cardiology,I10,Triage,21/12/2024 20:54:43,0
+T031,P198,Emergency,Cardiology,I10,Review,22/12/2024 01:00:30,0
+T031,P198,Emergency,Cardiology,I10,Angiography,23/12/2024 19:45:13,2
+T031,P198,Emergency,Cardiology,I10,Assessment,23/12/2024 20:35:39,2
+T031,P198,Emergency,Cardiology,I10,Discharge - home,24/12/2024 01:46:15,2
+T032,P064,Elective,Cardiology,I20,Consultation,01/08/2024 18:46:22,71
+T032,P064,Elective,Cardiology,I20,Discharge - care,01/09/2024 06:46:45,102
+T032,P064,Elective,Cardiology,I20,Consultation,03/06/2024 00:42:10,12
+T032,P064,Elective,Cardiology,I20,Follow-up,03/07/2024 20:56:04,42
+T032,P064,Elective,Cardiology,I20,Triage,08/07/2024 19:49:50,47
+T032,P064,Elective,Cardiology,I20,Review,20/07/2024 22:57:11,60
+T032,P064,Elective,Cardiology,I20,Referral,21/05/2024 22:24:09,0
+T032,P064,Elective,Cardiology,I20,Follow-up,25/08/2024 13:06:40,95
+T033,P143,Emergency,Cardiology,I48,Referral,07/02/2025 05:58:27,0
+T033,P143,Emergency,Cardiology,I48,Triage,07/02/2025 10:57:46,0
+T033,P143,Emergency,Cardiology,I48,Review,07/02/2025 16:31:27,0
+T033,P143,Emergency,Cardiology,I48,Assessment,09/02/2025 13:44:08,2
+T033,P143,Emergency,Cardiology,I48,Consultation,11/02/2025 23:08:29,4
+T033,P143,Emergency,Cardiology,I48,Discharge - home,12/02/2025 23:17:19,5
+T034,P149,Elective,Orthopedics,M54,Discharge - care,04/07/2024 14:21:44,34
+T034,P149,Elective,Orthopedics,M54,MRI,11/06/2024 16:30:58,12
+T034,P149,Elective,Orthopedics,M54,Consultation,20/06/2024 00:24:21,20
+T034,P149,Elective,Orthopedics,M54,Referral,30/05/2024 15:46:42,0
+T034,P149,Elective,Orthopedics,M54,Consultation,30/06/2024 00:05:44,30
+T035,P096,Emergency,Orthopedics,M79,Referral,11/06/2024 13:24:40,0
+T035,P096,Emergency,Orthopedics,M79,Triage,11/06/2024 19:32:16,0
+T035,P096,Emergency,Orthopedics,M79,Review,11/06/2024 22:14:25,0
+T035,P096,Emergency,Orthopedics,M79,Discharge - home,15/06/2024 10:17:05,3
+T036,P145,Emergency,Orthopedics,S72,Referral,20/02/2025 13:36:09,0
+T036,P145,Emergency,Orthopedics,S72,Triage,20/02/2025 15:36:15,0
+T036,P145,Emergency,Orthopedics,S72,Review,20/02/2025 19:57:57,0
+T036,P145,Emergency,Orthopedics,S72,Discharge - care,22/02/2025 17:45:25,2
+T037,P199,Elective,Orthopedics,M16,Referral,08/08/2024 11:15:43,0
+T037,P199,Elective,Orthopedics,M16,Follow-up,11/10/2024 09:42:57,63
+T037,P199,Elective,Orthopedics,M16,Discharge - home,18/10/2024 05:42:47,70
+T038,P182,Emergency,Orthopedics,M54,Discharge - care,01/12/2024 18:21:08,12
+T038,P182,Emergency,Orthopedics,M54,Referral,19/11/2024 17:40:21,0
+T038,P182,Emergency,Orthopedics,M54,Triage,19/11/2024 21:56:21,0
+T038,P182,Emergency,Orthopedics,M54,Review,19/11/2024 23:01:30,0
+T038,P182,Emergency,Orthopedics,M54,Assessment,21/11/2024 19:29:03,2
+T038,P182,Emergency,Orthopedics,M54,Follow-up,29/11/2024 16:20:08,9
+T039,P127,Elective,Orthopedics,M17,Referral,21/03/2025 04:58:58,0
+T039,P127,Elective,Orthopedics,M17,Discharge - home,31/03/2025 04:21:54,9
+T040,P062,Emergency,Orthopedics,S72,Blood Test,03/04/2024 03:10:15,-1
+T040,P062,Emergency,Orthopedics,S72,Referral,03/04/2024 18:52:47,0
+T040,P062,Emergency,Orthopedics,S72,Triage,03/04/2024 21:33:26,0
+T040,P062,Emergency,Orthopedics,S72,Review,03/04/2024 23:47:44,0
+T040,P062,Emergency,Orthopedics,S72,Consultation,05/04/2024 03:24:17,1
+T040,P062,Emergency,Orthopedics,S72,Assessment,05/04/2024 11:36:27,1
+T040,P062,Emergency,Orthopedics,S72,Discharge - care,11/04/2024 04:04:42,7
+T041,P146,Emergency,Cardiology,I25,Follow-up,11/07/2024 18:54:25,20
+T041,P146,Emergency,Cardiology,I25,Discharge - home,14/07/2024 15:35:51,23
+T041,P146,Emergency,Cardiology,I25,Referral,21/06/2024 10:51:23,0
+T041,P146,Emergency,Cardiology,I25,Triage,21/06/2024 11:49:40,0
+T041,P146,Emergency,Cardiology,I25,Review,21/06/2024 14:07:26,0
+T041,P146,Emergency,Cardiology,I25,XRay,23/06/2024 10:54:10,2
+T041,P146,Emergency,Cardiology,I25,Treatment,26/06/2024 01:27:13,4
+T041,P146,Emergency,Cardiology,I25,Consultation,28/06/2024 16:45:29,7
+T042,P108,Emergency,Cardiology,I10,Follow-up,02/01/2025 13:23:03,10
+T042,P108,Emergency,Cardiology,I10,Consultation,04/01/2025 10:00:04,11
+T042,P108,Emergency,Cardiology,I10,Discharge - home,06/01/2025 01:01:29,13
+T042,P108,Emergency,Cardiology,I10,CT Scan,23/12/2024 05:43:16,-1
+T042,P108,Emergency,Cardiology,I10,Referral,23/12/2024 12:29:00,0
+T042,P108,Emergency,Cardiology,I10,Triage,23/12/2024 17:15:13,0
+T042,P108,Emergency,Cardiology,I10,Review,23/12/2024 19:49:37,0
+T043,P148,Emergency,Cardiology,I20,Referral,14/05/2024 12:12:05,0
+T043,P148,Emergency,Cardiology,I20,Triage,14/05/2024 14:21:42,0
+T043,P148,Emergency,Cardiology,I20,Review,14/05/2024 17:43:06,0
+T043,P148,Emergency,Cardiology,I20,Consultation,17/05/2024 18:37:58,3
+T043,P148,Emergency,Cardiology,I20,Discharge - home,19/05/2024 19:07:09,5
+T044,P134,Emergency,Orthopedics,M17,Referral,10/02/2025 15:04:10,0
+T044,P134,Emergency,Orthopedics,M17,Triage,10/02/2025 20:55:02,0
+T044,P134,Emergency,Orthopedics,M17,Review,11/02/2025 01:48:03,0
+T044,P134,Emergency,Orthopedics,M17,Blood Test,11/02/2025 15:04:25,1
+T044,P134,Emergency,Orthopedics,M17,Discharge - home,14/02/2025 07:26:42,3
+T045,P039,Elective,Cardiology,I25,MRI,02/01/2025 22:50:18,9
+T045,P039,Elective,Cardiology,I25,Consultation,18/01/2025 09:18:26,25
+T045,P039,Elective,Cardiology,I25,Discharge - home,24/01/2025 17:23:47,31
+T045,P039,Elective,Cardiology,I25,Referral,24/12/2024 01:55:28,0
+T045,P039,Elective,Cardiology,I25,Bone Density Scan,30/12/2024 05:46:50,6
+T046,P127,Emergency,Cardiology,I50,Referral,22/09/2024 20:57:01,0
+T046,P127,Emergency,Cardiology,I50,Triage,22/09/2024 23:37:52,0
+T046,P127,Emergency,Cardiology,I50,Review,23/09/2024 04:45:58,0
+T046,P127,Emergency,Cardiology,I50,Blood Test,23/09/2024 11:46:27,0
+T046,P127,Emergency,Cardiology,I50,Discharge - care,26/09/2024 22:04:35,4
+T047,P009,Emergency,Orthopedics,M16,Referral,20/04/2024 01:17:22,0
+T047,P009,Emergency,Orthopedics,M16,Triage,20/04/2024 06:22:06,0
+T047,P009,Emergency,Orthopedics,M16,Review,20/04/2024 08:55:24,0
+T047,P009,Emergency,Orthopedics,M16,Discharge - home,25/04/2024 17:51:50,5
+T048,P006,Emergency,Cardiology,I25,Referral,21/05/2024 18:08:21,0
+T048,P006,Emergency,Cardiology,I25,Triage,21/05/2024 23:50:42,0
+T048,P006,Emergency,Cardiology,I25,Review,22/05/2024 04:06:06,0
+T048,P006,Emergency,Cardiology,I25,Discharge - deceased,24/05/2024 02:05:51,2
+T049,P152,Emergency,Cardiology,I25,Referral,01/03/2025 12:37:16,0
+T049,P152,Emergency,Cardiology,I25,Triage,01/03/2025 17:43:16,0
+T049,P152,Emergency,Cardiology,I25,MRI,01/03/2025 21:43:05,0
+T049,P152,Emergency,Cardiology,I25,Review,01/03/2025 23:33:52,0
+T049,P152,Emergency,Cardiology,I25,Discharge - home,03/03/2025 22:35:45,2
+T050,P102,Elective,Orthopedics,S72,Triage,01/09/2025 14:04:25,164
+T050,P102,Elective,Orthopedics,S72,Follow-up,07/02/2026 23:34:43,324
+T050,P102,Elective,Orthopedics,S72,Consultation,10/03/2026 23:55:21,355
+T050,P102,Elective,Orthopedics,S72,Treatment,15/08/2025 09:40:52,147
+T050,P102,Elective,Orthopedics,S72,Discharge - home,16/03/2026 23:06:49,361
+T050,P102,Elective,Orthopedics,S72,Referral,20/03/2025 18:15:38,0
+T050,P102,Elective,Orthopedics,S72,Consultation,23/09/2025 13:42:00,186
+T050,P102,Elective,Orthopedics,S72,Assessment,26/08/2025 03:23:45,158
+T050,P102,Elective,Orthopedics,S72,Follow-up,29/06/2025 17:33:13,100
+T050,P102,Elective,Orthopedics,S72,Review,29/10/2025 23:32:49,223
+T051,P169,Emergency,Orthopedics,M17,Follow-up,01/10/2024 00:53:57,22
+T051,P169,Emergency,Orthopedics,M17,Discharge - care,04/10/2024 22:14:54,26
+T051,P169,Emergency,Orthopedics,M17,Referral,08/09/2024 03:30:21,0
+T051,P169,Emergency,Orthopedics,M17,Triage,08/09/2024 09:23:40,0
+T051,P169,Emergency,Orthopedics,M17,Review,08/09/2024 11:40:02,0
+T051,P169,Emergency,Orthopedics,M17,Ultrasound,09/09/2024 10:12:56,1
+T051,P169,Emergency,Orthopedics,M17,Treatment,14/09/2024 15:49:48,6
+T051,P169,Emergency,Orthopedics,M17,Assessment,15/09/2024 16:36:20,7
+T052,P118,Emergency,Cardiology,I25,Referral,12/07/2024 01:28:17,0
+T052,P118,Emergency,Cardiology,I25,Triage,12/07/2024 07:03:24,0
+T052,P118,Emergency,Cardiology,I25,Review,12/07/2024 13:53:50,0
+T052,P118,Emergency,Cardiology,I25,Discharge - home,15/07/2024 18:44:43,3
+T053,P046,Elective,Cardiology,I25,Consultation,03/03/2025 17:40:16,71
+T053,P046,Elective,Cardiology,I25,Consultation,06/01/2025 07:18:03,15
+T053,P046,Elective,Cardiology,I25,Discharge - home,10/03/2025 15:22:59,78
+T053,P046,Elective,Cardiology,I25,Review,22/02/2025 02:25:57,61
+T053,P046,Elective,Cardiology,I25,Referral,22/12/2024 04:20:22,0
+T053,P046,Elective,Cardiology,I25,Treatment,28/01/2025 10:17:55,37
+T053,P046,Elective,Cardiology,I25,Blood Test,28/12/2024 10:25:48,6
+T054,P076,Emergency,Orthopedics,S72,Discharge - deceased,04/03/2025 19:04:15,14
+T054,P076,Emergency,Orthopedics,S72,Referral,18/02/2025 12:39:18,0
+T054,P076,Emergency,Orthopedics,S72,Triage,18/02/2025 18:38:04,0
+T054,P076,Emergency,Orthopedics,S72,Review,18/02/2025 20:20:45,0
+T054,P076,Emergency,Orthopedics,S72,ECG,20/02/2025 14:43:46,2
+T054,P076,Emergency,Orthopedics,S72,Echocardiogram,22/02/2025 23:43:46,4
+T054,P076,Emergency,Orthopedics,S72,Assessment,26/02/2025 03:19:41,7
+T055,P166,Emergency,Cardiology,I10,Referral,08/03/2025 07:12:51,0
+T055,P166,Emergency,Cardiology,I10,Triage,08/03/2025 09:51:16,0
+T055,P166,Emergency,Cardiology,I10,Review,08/03/2025 15:01:48,0
+T055,P166,Emergency,Cardiology,I10,Echocardiogram,09/03/2025 11:17:05,1
+T055,P166,Emergency,Cardiology,I10,Treatment,10/03/2025 23:58:23,2
+T055,P166,Emergency,Cardiology,I10,Assessment,11/03/2025 17:06:51,3
+T055,P166,Emergency,Cardiology,I10,Consultation,12/03/2025 04:15:50,3
+T055,P166,Emergency,Cardiology,I10,Discharge - home,14/03/2025 15:48:24,6
+T056,P030,Emergency,Cardiology,I10,Referral,13/09/2024 23:04:13,0
+T056,P030,Emergency,Cardiology,I10,Triage,14/09/2024 05:06:54,0
+T056,P030,Emergency,Cardiology,I10,Review,14/09/2024 06:35:29,0
+T056,P030,Emergency,Cardiology,I10,Treatment,15/09/2024 15:22:59,1
+T056,P030,Emergency,Cardiology,I10,Consultation,16/09/2024 13:52:18,2
+T056,P030,Emergency,Cardiology,I10,Discharge - home,18/09/2024 04:49:12,4
+T057,P117,Emergency,Cardiology,I10,Referral,06/07/2024 14:27:47,0
+T057,P117,Emergency,Cardiology,I10,Triage,06/07/2024 15:08:07,0
+T057,P117,Emergency,Cardiology,I10,Review,06/07/2024 20:00:25,0
+T057,P117,Emergency,Cardiology,I10,MRI,07/07/2024 11:23:25,0
+T057,P117,Emergency,Cardiology,I10,Treatment,10/07/2024 17:22:05,4
+T057,P117,Emergency,Cardiology,I10,Assessment,11/07/2024 04:36:05,4
+T057,P117,Emergency,Cardiology,I10,Discharge - home,13/07/2024 05:07:00,6
+T058,P059,Elective,Cardiology,I48,Referral,02/02/2025 14:01:09,0
+T058,P059,Elective,Cardiology,I48,Discharge - home,05/02/2025 16:59:52,3
+T059,P184,Elective,Cardiology,I50,Treatment,04/10/2024 20:39:16,38
+T059,P184,Elective,Cardiology,I50,Discharge - home,06/10/2024 13:39:49,40
+T059,P184,Elective,Cardiology,I50,Bone Density Scan,07/09/2024 18:06:29,11
+T059,P184,Elective,Cardiology,I50,Triage,20/09/2024 03:02:18,23
+T059,P184,Elective,Cardiology,I50,Referral,27/08/2024 05:35:20,0
+T060,P048,Emergency,Cardiology,I20,Treatment,03/09/2024 11:29:22,5
+T060,P048,Emergency,Cardiology,I20,Assessment,03/09/2024 14:00:23,5
+T060,P048,Emergency,Cardiology,I20,Discharge - care,04/09/2024 08:00:29,6
+T060,P048,Emergency,Cardiology,I20,Referral,28/08/2024 14:34:52,0
+T060,P048,Emergency,Cardiology,I20,Triage,28/08/2024 19:59:51,0
+T060,P048,Emergency,Cardiology,I20,Review,28/08/2024 21:07:38,0
+T060,P048,Emergency,Cardiology,I20,CT Scan,29/08/2024 19:10:26,1
+T061,P027,Emergency,Cardiology,I48,Consultation,01/11/2024 05:19:36,1
+T061,P027,Emergency,Cardiology,I48,Discharge - home,02/11/2024 01:01:39,2
+T061,P027,Emergency,Cardiology,I48,Referral,30/10/2024 22:25:53,0
+T061,P027,Emergency,Cardiology,I48,Triage,31/10/2024 01:18:20,0
+T061,P027,Emergency,Cardiology,I48,MRI,31/10/2024 04:17:34,0
+T061,P027,Emergency,Cardiology,I48,Review,31/10/2024 04:49:13,0
+T061,P027,Emergency,Cardiology,I48,Echocardiogram,31/10/2024 21:30:15,0
+T062,P073,Elective,Cardiology,I20,Referral,13/06/2024 18:52:26,0
+T062,P073,Elective,Cardiology,I20,Review,13/07/2024 19:46:37,30
+T062,P073,Elective,Cardiology,I20,Discharge - home,20/07/2024 21:38:49,37
+T062,P073,Elective,Cardiology,I20,Angiography,23/06/2024 15:28:35,9
+T062,P073,Elective,Cardiology,I20,Triage,27/06/2024 19:50:33,14
+T062,P073,Elective,Cardiology,I20,Assessment,29/06/2024 04:37:10,15
+T063,P013,Emergency,Cardiology,I25,Referral,25/07/2024 09:00:53,0
+T063,P013,Emergency,Cardiology,I25,Triage,25/07/2024 12:48:14,0
+T063,P013,Emergency,Cardiology,I25,Review,25/07/2024 14:09:50,0
+T063,P013,Emergency,Cardiology,I25,Treatment,27/07/2024 02:24:15,1
+T063,P013,Emergency,Cardiology,I25,Bone Density Scan,27/07/2024 07:01:11,1
+T063,P013,Emergency,Cardiology,I25,Angiography,27/07/2024 13:34:10,2
+T063,P013,Emergency,Cardiology,I25,Consultation,27/07/2024 23:53:18,2
+T063,P013,Emergency,Cardiology,I25,Discharge - home,28/07/2024 04:02:36,2
+T064,P018,Emergency,Cardiology,I48,Referral,04/04/2024 01:19:18,0
+T064,P018,Emergency,Cardiology,I48,Triage,04/04/2024 05:13:22,0
+T064,P018,Emergency,Cardiology,I48,Review,04/04/2024 09:59:53,0
+T064,P018,Emergency,Cardiology,I48,Treatment,06/04/2024 14:38:14,2
+T064,P018,Emergency,Cardiology,I48,Consultation,06/04/2024 17:15:21,2
+T064,P018,Emergency,Cardiology,I48,Discharge - home,09/04/2024 14:55:36,5
+T065,P049,Emergency,Orthopedics,M79,Consultation,10/01/2025 06:36:16,-1
+T065,P049,Emergency,Orthopedics,M79,Referral,10/01/2025 09:03:13,0
+T065,P049,Emergency,Orthopedics,M79,Triage,10/01/2025 11:49:52,0
+T065,P049,Emergency,Orthopedics,M79,Review,10/01/2025 13:57:12,0
+T065,P049,Emergency,Orthopedics,M79,Follow-up,16/01/2025 09:41:15,6
+T065,P049,Emergency,Orthopedics,M79,Discharge - home,20/01/2025 21:31:12,10
+T066,P197,Emergency,Cardiology,I50,Referral,18/07/2024 06:38:41,0
+T066,P197,Emergency,Cardiology,I50,Triage,18/07/2024 12:37:23,0
+T066,P197,Emergency,Cardiology,I50,Review,18/07/2024 17:06:11,0
+T066,P197,Emergency,Cardiology,I50,Follow-up,24/07/2024 06:33:46,5
+T066,P197,Emergency,Cardiology,I50,Treatment,25/07/2024 00:36:15,6
+T066,P197,Emergency,Cardiology,I50,Consultation,27/07/2024 03:55:40,8
+T066,P197,Emergency,Cardiology,I50,Assessment,27/07/2024 07:34:01,9
+T066,P197,Emergency,Cardiology,I50,Discharge - home,30/07/2024 23:15:47,12
+T067,P176,Emergency,Cardiology,I50,Referral,04/05/2024 20:25:44,0
+T067,P176,Emergency,Cardiology,I50,Triage,05/05/2024 01:03:49,0
+T067,P176,Emergency,Cardiology,I50,Review,05/05/2024 03:51:55,0
+T067,P176,Emergency,Cardiology,I50,CT Scan,05/05/2024 19:50:24,0
+T067,P176,Emergency,Cardiology,I50,Discharge - home,08/05/2024 10:35:03,3
+T068,P015,Emergency,Orthopedics,M16,Referral,02/06/2024 10:25:45,0
+T068,P015,Emergency,Orthopedics,M16,Triage,02/06/2024 16:58:00,0
+T068,P015,Emergency,Orthopedics,M16,Review,02/06/2024 20:55:44,0
+T068,P015,Emergency,Orthopedics,M16,XRay,02/06/2024 21:38:34,0
+T068,P015,Emergency,Orthopedics,M16,Consultation,02/07/2024 19:08:31,30
+T068,P015,Emergency,Orthopedics,M16,Discharge - home,05/07/2024 03:25:43,32
+T068,P015,Emergency,Orthopedics,M16,Follow-up,27/06/2024 02:16:04,24
+T068,P015,Emergency,Orthopedics,M16,Assessment,27/06/2024 11:34:56,25
+T069,P111,Elective,Orthopedics,M17,Referral,02/07/2024 00:46:18,0
+T069,P111,Elective,Orthopedics,M17,Discharge - home,05/07/2024 18:56:57,3
+T070,P163,Emergency,Orthopedics,M79,Referral,05/07/2024 06:02:58,0
+T070,P163,Emergency,Orthopedics,M79,Triage,05/07/2024 12:14:42,0
+T070,P163,Emergency,Orthopedics,M79,Review,05/07/2024 14:00:57,0
+T070,P163,Emergency,Orthopedics,M79,Assessment,06/07/2024 02:47:26,0
+T070,P163,Emergency,Orthopedics,M79,Consultation,06/07/2024 21:18:17,1
+T070,P163,Emergency,Orthopedics,M79,Treatment,11/07/2024 12:26:18,6
+T070,P163,Emergency,Orthopedics,M79,Discharge - home,13/07/2024 12:39:07,8
+T071,P148,Emergency,Orthopedics,M79,Referral,20/05/2024 00:38:46,0
+T071,P148,Emergency,Orthopedics,M79,Triage,20/05/2024 02:41:20,0
+T071,P148,Emergency,Orthopedics,M79,Review,20/05/2024 05:03:31,0
+T071,P148,Emergency,Orthopedics,M79,MRI,21/05/2024 23:04:48,1
+T071,P148,Emergency,Orthopedics,M79,Consultation,22/05/2024 16:41:11,2
+T071,P148,Emergency,Orthopedics,M79,Assessment,22/05/2024 18:14:28,2
+T071,P148,Emergency,Orthopedics,M79,Discharge - home,26/05/2024 12:01:39,6
+T072,P071,Emergency,Orthopedics,M16,Referral,10/01/2025 17:00:09,0
+T072,P071,Emergency,Orthopedics,M16,Triage,10/01/2025 21:10:39,0
+T072,P071,Emergency,Orthopedics,M16,Review,11/01/2025 01:25:17,0
+T072,P071,Emergency,Orthopedics,M16,Assessment,11/01/2025 22:05:59,1
+T072,P071,Emergency,Orthopedics,M16,Echocardiogram,11/01/2025 23:41:26,1
+T072,P071,Emergency,Orthopedics,M16,Discharge - home,16/01/2025 10:17:59,5
+T073,P052,Emergency,Cardiology,I10,Referral,02/10/2024 04:55:18,0
+T073,P052,Emergency,Cardiology,I10,Triage,02/10/2024 05:13:30,0
+T073,P052,Emergency,Cardiology,I10,Review,02/10/2024 09:30:21,0
+T073,P052,Emergency,Cardiology,I10,Assessment,02/10/2024 15:49:58,0
+T073,P052,Emergency,Cardiology,I10,Treatment,03/10/2024 08:09:46,1
+T073,P052,Emergency,Cardiology,I10,Follow-up,12/10/2024 01:54:08,9
+T073,P052,Emergency,Cardiology,I10,Consultation,12/10/2024 05:13:01,10
+T073,P052,Emergency,Cardiology,I10,Discharge - home,14/10/2024 06:07:22,12
+T074,P029,Emergency,Orthopedics,M79,Referral,08/04/2024 19:46:19,0
+T074,P029,Emergency,Orthopedics,M79,Triage,08/04/2024 21:35:46,0
+T074,P029,Emergency,Orthopedics,M79,Review,09/04/2024 03:46:21,0
+T074,P029,Emergency,Orthopedics,M79,Assessment,09/04/2024 21:26:21,1
+T074,P029,Emergency,Orthopedics,M79,Discharge - home,13/04/2024 08:49:23,4
+T075,P146,Emergency,Cardiology,I48,Follow-up,04/11/2024 19:23:00,11
+T075,P146,Emergency,Cardiology,I48,Consultation,07/11/2024 18:50:38,14
+T075,P146,Emergency,Cardiology,I48,Discharge - home,09/11/2024 12:21:09,16
+T075,P146,Emergency,Cardiology,I48,Referral,24/10/2024 05:11:31,0
+T075,P146,Emergency,Cardiology,I48,Triage,24/10/2024 10:01:49,0
+T075,P146,Emergency,Cardiology,I48,Review,24/10/2024 13:37:01,0
+T075,P146,Emergency,Cardiology,I48,Angiography,25/10/2024 13:50:14,1
+T076,P083,Emergency,Cardiology,I10,Referral,22/02/2025 10:31:07,0
+T076,P083,Emergency,Cardiology,I10,Triage,22/02/2025 11:04:39,0
+T076,P083,Emergency,Cardiology,I10,Review,22/02/2025 13:59:27,0
+T076,P083,Emergency,Cardiology,I10,Discharge - home,24/02/2025 02:20:23,1
+T077,P160,Emergency,Cardiology,I25,Referral,12/11/2024 00:05:23,0
+T077,P160,Emergency,Cardiology,I25,Triage,12/11/2024 06:22:44,0
+T077,P160,Emergency,Cardiology,I25,Review,12/11/2024 08:42:06,0
+T077,P160,Emergency,Cardiology,I25,Treatment,18/11/2024 14:05:05,6
+T077,P160,Emergency,Cardiology,I25,Follow-up,26/11/2024 14:38:51,14
+T077,P160,Emergency,Cardiology,I25,Discharge - home,28/11/2024 01:15:14,16
+T078,P191,Emergency,Orthopedics,M54,Referral,22/11/2024 20:34:15,0
+T078,P191,Emergency,Orthopedics,M54,Triage,22/11/2024 23:30:34,0
+T078,P191,Emergency,Orthopedics,M54,Review,23/11/2024 05:13:10,0
+T078,P191,Emergency,Orthopedics,M54,Discharge - care,25/11/2024 02:17:29,2
+T079,P033,Emergency,Cardiology,I25,Follow-up,08/08/2024 20:50:39,8
+T079,P033,Emergency,Cardiology,I25,Discharge - deceased,11/08/2024 15:27:20,10
+T079,P033,Emergency,Cardiology,I25,Referral,31/07/2024 16:08:06,0
+T079,P033,Emergency,Cardiology,I25,Triage,31/07/2024 21:16:20,0
+T079,P033,Emergency,Cardiology,I25,Review,31/07/2024 22:35:00,0
+T080,P099,Emergency,Cardiology,I50,Assessment,03/11/2024 03:58:02,-1
+T080,P099,Emergency,Cardiology,I50,Referral,03/11/2024 04:33:37,0
+T080,P099,Emergency,Cardiology,I50,Triage,03/11/2024 07:42:16,0
+T080,P099,Emergency,Cardiology,I50,Review,03/11/2024 09:00:58,0
+T080,P099,Emergency,Cardiology,I50,Follow-up,09/11/2024 12:29:00,6
+T080,P099,Emergency,Cardiology,I50,Treatment,12/11/2024 13:14:11,9
+T080,P099,Emergency,Cardiology,I50,Consultation,13/11/2024 05:29:56,10
+T080,P099,Emergency,Cardiology,I50,Discharge - home,16/11/2024 14:13:13,13
+T081,P148,Elective,Cardiology,I50,Referral,22/04/2024 07:20:10,0
+T081,P148,Elective,Cardiology,I50,Discharge - care,27/04/2024 19:46:48,5
+T082,P141,Elective,Orthopedics,M16,Triage,04/09/2024 11:04:37,25
+T082,P141,Elective,Orthopedics,M16,Referral,09/08/2024 17:25:21,0
+T082,P141,Elective,Orthopedics,M16,Discharge - home,09/09/2024 13:37:59,30
+T082,P141,Elective,Orthopedics,M16,MRI,23/08/2024 16:28:53,13
+T083,P112,Emergency,Orthopedics,M16,Referral,18/11/2024 20:30:26,0
+T083,P112,Emergency,Orthopedics,M16,Triage,19/11/2024 00:20:57,0
+T083,P112,Emergency,Orthopedics,M16,Review,19/11/2024 01:25:00,0
+T083,P112,Emergency,Orthopedics,M16,Ultrasound,19/11/2024 15:02:27,0
+T083,P112,Emergency,Orthopedics,M16,Discharge - home,20/11/2024 12:02:47,1
+T084,P092,Emergency,Orthopedics,M79,Referral,24/09/2024 04:12:28,0
+T084,P092,Emergency,Orthopedics,M79,Triage,24/09/2024 07:11:24,0
+T084,P092,Emergency,Orthopedics,M79,Review,24/09/2024 12:54:15,0
+T084,P092,Emergency,Orthopedics,M79,ECG,26/09/2024 22:01:26,2
+T084,P092,Emergency,Orthopedics,M79,Discharge - home,27/09/2024 20:04:45,3
+T085,P017,Emergency,Cardiology,I50,Follow-up,04/02/2025 20:28:51,8
+T085,P017,Emergency,Cardiology,I50,Treatment,07/02/2025 03:38:49,11
+T085,P017,Emergency,Cardiology,I50,Consultation,10/02/2025 09:16:17,14
+T085,P017,Emergency,Cardiology,I50,Discharge - home,11/02/2025 05:42:14,15
+T085,P017,Emergency,Cardiology,I50,Referral,26/01/2025 21:46:02,0
+T085,P017,Emergency,Cardiology,I50,Triage,27/01/2025 01:14:29,0
+T085,P017,Emergency,Cardiology,I50,Review,27/01/2025 02:16:39,0
+T085,P017,Emergency,Cardiology,I50,Echocardiogram,29/01/2025 13:55:47,2
+T086,P040,Emergency,Cardiology,I48,Discharge - home,02/04/2025 16:39:12,2
+T086,P040,Emergency,Cardiology,I48,Referral,31/03/2025 12:24:52,0
+T086,P040,Emergency,Cardiology,I48,Triage,31/03/2025 16:44:56,0
+T086,P040,Emergency,Cardiology,I48,Review,31/03/2025 19:28:33,0
+T087,P084,Emergency,Orthopedics,M79,Discharge - home,02/03/2025 08:04:05,1
+T087,P084,Emergency,Orthopedics,M79,Referral,28/02/2025 09:09:16,0
+T087,P084,Emergency,Orthopedics,M79,Triage,28/02/2025 14:38:26,0
+T087,P084,Emergency,Orthopedics,M79,Review,28/02/2025 17:13:30,0
+T088,P056,Emergency,Cardiology,I20,Referral,24/03/2025 15:38:18,0
+T088,P056,Emergency,Cardiology,I20,Triage,24/03/2025 21:25:36,0
+T088,P056,Emergency,Cardiology,I20,Review,24/03/2025 22:02:25,0
+T088,P056,Emergency,Cardiology,I20,Bone Density Scan,25/03/2025 19:44:04,1
+T088,P056,Emergency,Cardiology,I20,CT Scan,26/03/2025 07:38:43,1
+T088,P056,Emergency,Cardiology,I20,Consultation,27/03/2025 15:21:05,2
+T088,P056,Emergency,Cardiology,I20,Discharge - home,28/03/2025 10:01:37,3
+T089,P161,Emergency,Orthopedics,M17,Discharge - home,02/05/2024 17:17:41,11
+T089,P161,Emergency,Orthopedics,M17,Referral,21/04/2024 02:19:23,0
+T089,P161,Emergency,Orthopedics,M17,Triage,21/04/2024 06:46:13,0
+T089,P161,Emergency,Orthopedics,M17,Review,21/04/2024 12:19:17,0
+T089,P161,Emergency,Orthopedics,M17,Treatment,22/04/2024 08:54:02,1
+T089,P161,Emergency,Orthopedics,M17,Consultation,27/04/2024 23:03:45,6
+T090,P092,Emergency,Cardiology,I48,Referral,15/08/2024 23:46:51,0
+T090,P092,Emergency,Cardiology,I48,Triage,16/08/2024 00:42:24,0
+T090,P092,Emergency,Cardiology,I48,Consultation,16/08/2024 03:38:16,0
+T090,P092,Emergency,Cardiology,I48,Review,16/08/2024 06:24:46,0
+T090,P092,Emergency,Cardiology,I48,Treatment,18/08/2024 15:38:10,2
+T090,P092,Emergency,Cardiology,I48,Assessment,20/08/2024 13:09:08,4
+T090,P092,Emergency,Cardiology,I48,Follow-up,29/08/2024 13:30:47,13
+T090,P092,Emergency,Cardiology,I48,Discharge - home,30/08/2024 00:07:48,14
+T091,P157,Emergency,Orthopedics,M79,Consultation,01/07/2024 01:48:39,2
+T091,P157,Emergency,Orthopedics,M79,Treatment,03/07/2024 23:51:39,4
+T091,P157,Emergency,Orthopedics,M79,Discharge - care,04/07/2024 06:55:52,5
+T091,P157,Emergency,Orthopedics,M79,Referral,29/06/2024 01:20:52,0
+T091,P157,Emergency,Orthopedics,M79,Triage,29/06/2024 05:01:36,0
+T091,P157,Emergency,Orthopedics,M79,Review,29/06/2024 09:09:12,0
+T092,P139,Emergency,Cardiology,I25,Referral,24/11/2024 03:38:51,0
+T092,P139,Emergency,Cardiology,I25,Triage,24/11/2024 09:19:32,0
+T092,P139,Emergency,Cardiology,I25,Review,24/11/2024 15:57:49,0
+T092,P139,Emergency,Cardiology,I25,Discharge - home,26/11/2024 14:41:58,2
+T093,P200,Emergency,Orthopedics,M17,Ultrasound,11/07/2024 00:40:25,-1
+T093,P200,Emergency,Orthopedics,M17,Referral,11/07/2024 15:33:38,0
+T093,P200,Emergency,Orthopedics,M17,Triage,11/07/2024 18:58:48,0
+T093,P200,Emergency,Orthopedics,M17,Review,11/07/2024 21:40:37,0
+T093,P200,Emergency,Orthopedics,M17,Consultation,12/07/2024 10:36:34,0
+T093,P200,Emergency,Orthopedics,M17,Discharge - home,17/07/2024 15:01:17,5
+T094,P088,Elective,Cardiology,I25,Consultation,03/12/2024 01:57:48,75
+T094,P088,Elective,Cardiology,I25,Assessment,06/12/2024 21:47:19,78
+T094,P088,Elective,Cardiology,I25,Treatment,15/12/2024 01:20:45,87
+T094,P088,Elective,Cardiology,I25,Review,16/10/2024 09:14:51,27
+T094,P088,Elective,Cardiology,I25,Referral,19/09/2024 00:46:48,0
+T094,P088,Elective,Cardiology,I25,Follow-up,21/11/2024 00:32:01,62
+T094,P088,Elective,Cardiology,I25,Discharge - home,22/12/2024 22:39:43,94
+T094,P088,Elective,Cardiology,I25,Ultrasound,27/09/2024 16:06:45,8
+T095,P180,Emergency,Cardiology,I48,Referral,21/01/2025 14:42:36,0
+T095,P180,Emergency,Cardiology,I48,Triage,21/01/2025 20:43:42,0
+T095,P180,Emergency,Cardiology,I48,Review,22/01/2025 01:49:53,0
+T095,P180,Emergency,Cardiology,I48,Echocardiogram,24/01/2025 03:01:07,2
+T095,P180,Emergency,Cardiology,I48,Consultation,24/01/2025 09:35:29,2
+T095,P180,Emergency,Cardiology,I48,Assessment,24/01/2025 21:23:41,3
+T095,P180,Emergency,Cardiology,I48,Discharge - home,27/01/2025 01:12:57,5
+T096,P197,Elective,Orthopedics,M17,Referral,15/01/2025 02:07:45,0
+T096,P197,Elective,Orthopedics,M17,Discharge - deceased,24/01/2025 20:56:48,9
+T097,P057,Emergency,Cardiology,I10,Referral,15/01/2025 08:46:02,0
+T097,P057,Emergency,Cardiology,I10,Triage,15/01/2025 11:28:59,0
+T097,P057,Emergency,Cardiology,I10,Review,15/01/2025 15:18:57,0
+T097,P057,Emergency,Cardiology,I10,ECG,16/01/2025 06:10:03,0
+T097,P057,Emergency,Cardiology,I10,Discharge - home,17/01/2025 12:54:31,2
+T098,P008,Emergency,Orthopedics,M16,Referral,01/09/2024 07:48:13,0
+T098,P008,Emergency,Orthopedics,M16,Triage,01/09/2024 08:33:50,0
+T098,P008,Emergency,Orthopedics,M16,Review,01/09/2024 11:04:05,0
+T098,P008,Emergency,Orthopedics,M16,MRI,04/09/2024 12:25:35,3
+T098,P008,Emergency,Orthopedics,M16,Assessment,07/09/2024 05:28:07,5
+T098,P008,Emergency,Orthopedics,M16,Discharge - home,12/09/2024 11:55:52,11
+T099,P003,Emergency,Cardiology,I20,Referral,09/10/2024 22:00:23,0
+T099,P003,Emergency,Cardiology,I20,Triage,10/10/2024 01:02:02,0
+T099,P003,Emergency,Cardiology,I20,Review,10/10/2024 05:38:39,0
+T099,P003,Emergency,Cardiology,I20,CT Scan,11/10/2024 22:59:43,2
+T099,P003,Emergency,Cardiology,I20,Discharge - home,14/10/2024 06:44:27,4
+T100,P155,Emergency,Orthopedics,M54,Referral,06/04/2024 15:39:11,0
+T100,P155,Emergency,Orthopedics,M54,Triage,06/04/2024 21:30:36,0
+T100,P155,Emergency,Orthopedics,M54,Review,07/04/2024 03:54:18,0
+T100,P155,Emergency,Orthopedics,M54,Assessment,07/04/2024 14:58:35,0
+T100,P155,Emergency,Orthopedics,M54,Follow-up,14/04/2024 14:56:10,7
+T100,P155,Emergency,Orthopedics,M54,Treatment,14/04/2024 20:52:42,8
+T100,P155,Emergency,Orthopedics,M54,Consultation,15/04/2024 20:07:47,9
+T100,P155,Emergency,Orthopedics,M54,Discharge - home,17/04/2024 14:43:02,10
+T101,P188,Emergency,Orthopedics,S72,Referral,08/09/2024 14:15:16,0
+T101,P188,Emergency,Orthopedics,S72,Triage,08/09/2024 16:53:23,0
+T101,P188,Emergency,Orthopedics,S72,Review,08/09/2024 17:35:17,0
+T101,P188,Emergency,Orthopedics,S72,Follow-up,19/09/2024 12:48:19,10
+T101,P188,Emergency,Orthopedics,S72,Discharge - home,21/09/2024 12:54:34,12
+T102,P194,Elective,Orthopedics,M79,Consultation,04/01/2025 06:55:02,18
+T102,P194,Elective,Orthopedics,M79,Triage,09/01/2025 13:50:19,23
+T102,P194,Elective,Orthopedics,M79,Discharge - home,11/01/2025 15:29:57,25
+T102,P194,Elective,Orthopedics,M79,Referral,17/12/2024 02:22:38,0
+T103,P081,Elective,Cardiology,I48,Discharge - home,05/05/2025 13:00:20,47
+T103,P081,Elective,Cardiology,I48,Review,17/04/2025 08:41:44,29
+T103,P081,Elective,Cardiology,I48,Referral,19/03/2025 03:23:20,0
+T103,P081,Elective,Cardiology,I48,MRI,25/03/2025 21:29:01,6
+T103,P081,Elective,Cardiology,I48,XRay,30/03/2025 21:33:20,11
+T103,P081,Elective,Cardiology,I48,Treatment,30/04/2025 01:55:43,41
+T104,P104,Emergency,Orthopedics,S72,Referral,05/05/2024 00:45:20,0
+T104,P104,Emergency,Orthopedics,S72,Triage,05/05/2024 02:32:40,0
+T104,P104,Emergency,Orthopedics,S72,Treatment,05/05/2024 03:00:42,0
+T104,P104,Emergency,Orthopedics,S72,Review,05/05/2024 03:31:09,0
+T104,P104,Emergency,Orthopedics,S72,Discharge - home,09/05/2024 09:28:40,4
+T105,P130,Emergency,Orthopedics,S72,Follow-up,05/04/2025 08:12:07,20
+T105,P130,Emergency,Orthopedics,S72,Assessment,07/04/2025 20:32:53,22
+T105,P130,Emergency,Orthopedics,S72,Discharge - home,11/04/2025 03:59:52,25
+T105,P130,Emergency,Orthopedics,S72,Echocardiogram,16/03/2025 03:38:43,-1
+T105,P130,Emergency,Orthopedics,S72,Referral,16/03/2025 07:46:44,0
+T105,P130,Emergency,Orthopedics,S72,Triage,16/03/2025 12:39:27,0
+T105,P130,Emergency,Orthopedics,S72,Review,16/03/2025 18:21:12,0
+T106,P026,Emergency,Cardiology,I50,Follow-up,03/10/2024 17:35:05,7
+T106,P026,Emergency,Cardiology,I50,Assessment,05/10/2024 09:27:21,9
+T106,P026,Emergency,Cardiology,I50,Discharge - home,06/10/2024 21:22:08,10
+T106,P026,Emergency,Cardiology,I50,Referral,26/09/2024 08:27:20,0
+T106,P026,Emergency,Cardiology,I50,Triage,26/09/2024 12:06:29,0
+T106,P026,Emergency,Cardiology,I50,Review,26/09/2024 13:39:01,0
+T107,P101,Elective,Cardiology,I20,Discharge - home,01/02/2025 04:59:19,32
+T107,P101,Elective,Cardiology,I20,Consultation,10/01/2025 07:15:09,10
+T107,P101,Elective,Cardiology,I20,Review,25/01/2025 03:39:19,25
+T107,P101,Elective,Cardiology,I20,Assessment,29/01/2025 14:46:48,30
+T107,P101,Elective,Cardiology,I20,Referral,30/12/2024 13:53:18,0
+T108,P017,Emergency,Orthopedics,S72,Follow-up,01/11/2024 15:11:33,17
+T108,P017,Emergency,Orthopedics,S72,Treatment,10/11/2024 04:02:35,25
+T108,P017,Emergency,Orthopedics,S72,Referral,15/10/2024 14:35:34,0
+T108,P017,Emergency,Orthopedics,S72,Triage,15/10/2024 19:54:22,0
+T108,P017,Emergency,Orthopedics,S72,Review,15/10/2024 23:43:42,0
+T108,P017,Emergency,Orthopedics,S72,Discharge - home,16/11/2024 02:42:52,31
+T108,P017,Emergency,Orthopedics,S72,Blood Test,19/10/2024 23:48:37,4
+T109,P131,Elective,Cardiology,I20,Review,13/11/2024 19:13:26,17
+T109,P131,Elective,Cardiology,I20,Discharge - care,18/11/2024 19:34:39,22
+T109,P131,Elective,Cardiology,I20,Referral,26/10/2024 20:17:47,0
+T109,P131,Elective,Cardiology,I20,Assessment,30/10/2024 15:52:15,3
+T110,P140,Emergency,Orthopedics,M17,Assessment,03/12/2024 04:17:37,2
+T110,P140,Emergency,Orthopedics,M17,CT Scan,03/12/2024 23:57:08,3
+T110,P140,Emergency,Orthopedics,M17,Follow-up,17/12/2024 16:16:27,17
+T110,P140,Emergency,Orthopedics,M17,Discharge - care,22/12/2024 18:45:15,22
+T110,P140,Emergency,Orthopedics,M17,Referral,30/11/2024 10:04:38,0
+T110,P140,Emergency,Orthopedics,M17,Triage,30/11/2024 14:11:38,0
+T110,P140,Emergency,Orthopedics,M17,Review,30/11/2024 17:00:53,0
+T111,P110,Elective,Cardiology,I50,Consultation,05/05/2024 03:43:35,28
+T111,P110,Elective,Cardiology,I50,Referral,06/04/2024 13:57:45,0
+T111,P110,Elective,Cardiology,I50,Echocardiogram,19/04/2024 18:07:23,13
+T111,P110,Elective,Cardiology,I50,Treatment,20/05/2024 11:50:06,43
+T111,P110,Elective,Cardiology,I50,Discharge - home,23/05/2024 22:14:56,47
+T112,P049,Emergency,Orthopedics,M79,Discharge - home,04/07/2024 18:21:55,14
+T112,P049,Emergency,Orthopedics,M79,Ultrasound,20/06/2024 09:31:09,-1
+T112,P049,Emergency,Orthopedics,M79,Assessment,20/06/2024 10:25:31,-1
+T112,P049,Emergency,Orthopedics,M79,Referral,20/06/2024 12:56:14,0
+T112,P049,Emergency,Orthopedics,M79,Triage,20/06/2024 14:40:15,0
+T112,P049,Emergency,Orthopedics,M79,Review,20/06/2024 17:22:27,0
+T112,P049,Emergency,Orthopedics,M79,Follow-up,30/06/2024 21:10:13,10
+T113,P135,Emergency,Cardiology,I50,Referral,26/04/2024 12:48:08,0
+T113,P135,Emergency,Cardiology,I50,Triage,26/04/2024 16:53:09,0
+T113,P135,Emergency,Cardiology,I50,Review,26/04/2024 18:31:53,0
+T113,P135,Emergency,Cardiology,I50,Discharge - care,29/04/2024 14:52:29,3
+T114,P055,Emergency,Orthopedics,M79,Referral,01/08/2024 14:14:22,0
+T114,P055,Emergency,Orthopedics,M79,Triage,01/08/2024 20:54:16,0
+T114,P055,Emergency,Orthopedics,M79,Review,02/08/2024 01:05:13,0
+T114,P055,Emergency,Orthopedics,M79,CT Scan,02/08/2024 21:05:43,1
+T114,P055,Emergency,Orthopedics,M79,Follow-up,19/08/2024 03:33:11,17
+T114,P055,Emergency,Orthopedics,M79,Treatment,24/08/2024 20:10:24,23
+T114,P055,Emergency,Orthopedics,M79,Discharge - home,25/08/2024 22:54:42,24
+T115,P010,Emergency,Cardiology,I50,Referral,11/12/2024 02:17:37,0
+T115,P010,Emergency,Cardiology,I50,Triage,11/12/2024 08:52:38,0
+T115,P010,Emergency,Cardiology,I50,Review,11/12/2024 13:49:54,0
+T115,P010,Emergency,Cardiology,I50,Consultation,12/12/2024 12:14:39,1
+T115,P010,Emergency,Cardiology,I50,Discharge - home,13/12/2024 14:57:30,2
+T116,P106,Emergency,Cardiology,I20,Blood Test,03/12/2024 05:11:25,-1
+T116,P106,Emergency,Cardiology,I20,Referral,03/12/2024 12:27:43,0
+T116,P106,Emergency,Cardiology,I20,Triage,03/12/2024 15:04:50,0
+T116,P106,Emergency,Cardiology,I20,Review,03/12/2024 17:07:36,0
+T116,P106,Emergency,Cardiology,I20,Follow-up,14/12/2024 12:52:21,11
+T116,P106,Emergency,Cardiology,I20,Discharge - home,15/12/2024 17:59:02,12
+T117,P025,Emergency,Orthopedics,M54,Referral,22/06/2024 10:05:55,0
+T117,P025,Emergency,Orthopedics,M54,Triage,22/06/2024 12:58:01,0
+T117,P025,Emergency,Orthopedics,M54,Review,22/06/2024 14:23:07,0
+T117,P025,Emergency,Orthopedics,M54,ECG,24/06/2024 01:55:17,1
+T117,P025,Emergency,Orthopedics,M54,Discharge - home,25/06/2024 10:24:21,3
+T118,P194,Elective,Orthopedics,M54,Bone Density Scan,01/01/2025 15:48:04,11
+T118,P194,Elective,Orthopedics,M54,CT Scan,07/01/2025 09:19:56,17
+T118,P194,Elective,Orthopedics,M54,Discharge - deceased,13/01/2025 17:24:38,23
+T118,P194,Elective,Orthopedics,M54,Referral,20/12/2024 20:17:48,0
+T119,P143,Emergency,Cardiology,I50,Referral,08/06/2024 19:59:51,0
+T119,P143,Emergency,Cardiology,I50,Triage,09/06/2024 01:07:19,0
+T119,P143,Emergency,Cardiology,I50,Review,09/06/2024 03:24:51,0
+T119,P143,Emergency,Cardiology,I50,Consultation,10/06/2024 06:08:48,1
+T119,P143,Emergency,Cardiology,I50,Treatment,10/06/2024 21:13:00,2
+T119,P143,Emergency,Cardiology,I50,Follow-up,20/06/2024 00:27:32,11
+T119,P143,Emergency,Cardiology,I50,Assessment,20/06/2024 09:34:06,11
+T119,P143,Emergency,Cardiology,I50,Discharge - deceased,23/06/2024 10:37:54,14
+T120,P105,Emergency,Cardiology,I48,Referral,19/12/2024 17:57:39,0
+T120,P105,Emergency,Cardiology,I48,Triage,19/12/2024 20:02:04,0
+T120,P105,Emergency,Cardiology,I48,Review,19/12/2024 23:04:23,0
+T120,P105,Emergency,Cardiology,I48,ECG,21/12/2024 00:07:08,1
+T120,P105,Emergency,Cardiology,I48,Assessment,23/12/2024 05:52:58,3
+T120,P105,Emergency,Cardiology,I48,Consultation,26/12/2024 21:50:39,7
+T120,P105,Emergency,Cardiology,I48,Discharge - care,28/12/2024 23:08:33,9
+T121,P084,Emergency,Cardiology,I20,Referral,04/06/2024 06:56:55,0
+T121,P084,Emergency,Cardiology,I20,Triage,04/06/2024 11:53:02,0
+T121,P084,Emergency,Cardiology,I20,Review,04/06/2024 16:11:28,0
+T121,P084,Emergency,Cardiology,I20,Discharge - care,07/06/2024 07:30:06,3
+T122,P153,Emergency,Orthopedics,M54,Follow-up,08/11/2024 03:37:08,15
+T122,P153,Emergency,Orthopedics,M54,Treatment,11/11/2024 04:20:35,18
+T122,P153,Emergency,Orthopedics,M54,Assessment,13/11/2024 05:28:21,20
+T122,P153,Emergency,Orthopedics,M54,Discharge - home,14/11/2024 21:54:02,22
+T122,P153,Emergency,Orthopedics,M54,Referral,23/10/2024 19:53:12,0
+T122,P153,Emergency,Orthopedics,M54,Triage,23/10/2024 21:19:52,0
+T122,P153,Emergency,Orthopedics,M54,Review,24/10/2024 02:50:18,0
+T122,P153,Emergency,Orthopedics,M54,Echocardiogram,26/10/2024 17:26:14,2
+T123,P068,Elective,Orthopedics,M16,Discharge - care,02/03/2025 23:57:05,123
+T123,P068,Elective,Orthopedics,M16,Review,06/02/2025 21:41:05,99
+T123,P068,Elective,Orthopedics,M16,Follow-up,06/12/2024 18:33:25,37
+T123,P068,Elective,Orthopedics,M16,Treatment,18/01/2025 21:51:56,80
+T123,P068,Elective,Orthopedics,M16,Triage,18/02/2025 16:17:04,111
+T123,P068,Elective,Orthopedics,M16,Consultation,25/12/2024 05:17:54,56
+T123,P068,Elective,Orthopedics,M16,Assessment,28/12/2024 18:39:29,59
+T123,P068,Elective,Orthopedics,M16,Referral,30/10/2024 03:53:43,0
+T124,P024,Emergency,Cardiology,I50,Referral,04/05/2024 20:04:19,0
+T124,P024,Emergency,Cardiology,I50,Triage,05/05/2024 02:38:10,0
+T124,P024,Emergency,Cardiology,I50,Review,05/05/2024 07:19:19,0
+T124,P024,Emergency,Cardiology,I50,Discharge - care,08/05/2024 13:05:22,3
+T125,P185,Emergency,Orthopedics,M54,Follow-up,05/05/2024 19:53:58,8
+T125,P185,Emergency,Orthopedics,M54,Discharge - home,08/05/2024 06:33:39,11
+T125,P185,Emergency,Orthopedics,M54,Referral,26/04/2024 21:11:23,0
+T125,P185,Emergency,Orthopedics,M54,Triage,26/04/2024 23:42:58,0
+T125,P185,Emergency,Orthopedics,M54,Review,27/04/2024 02:59:57,0
+T126,P144,Elective,Orthopedics,M54,Review,02/10/2024 03:43:48,19
+T126,P144,Elective,Orthopedics,M54,Discharge - home,05/12/2024 09:44:05,83
+T126,P144,Elective,Orthopedics,M54,Referral,12/09/2024 18:02:41,0
+T126,P144,Elective,Orthopedics,M54,Consultation,14/10/2024 07:18:53,31
+T126,P144,Elective,Orthopedics,M54,Assessment,18/10/2024 10:07:19,35
+T126,P144,Elective,Orthopedics,M54,Follow-up,29/11/2024 21:03:25,78
+T127,P091,Emergency,Orthopedics,M16,Consultation,01/06/2024 03:25:59,23
+T127,P091,Emergency,Orthopedics,M16,Discharge - home,04/06/2024 05:26:25,26
+T127,P091,Emergency,Orthopedics,M16,Referral,08/05/2024 16:52:02,0
+T127,P091,Emergency,Orthopedics,M16,Triage,08/05/2024 21:34:52,0
+T127,P091,Emergency,Orthopedics,M16,Review,09/05/2024 00:32:29,0
+T127,P091,Emergency,Orthopedics,M16,XRay,12/05/2024 03:23:37,3
+T127,P091,Emergency,Orthopedics,M16,Follow-up,28/05/2024 14:53:46,19
+T127,P091,Emergency,Orthopedics,M16,Assessment,29/05/2024 12:49:52,20
+T128,P012,Emergency,Cardiology,I20,Referral,26/07/2024 16:07:23,0
+T128,P012,Emergency,Cardiology,I20,Triage,26/07/2024 19:26:12,0
+T128,P012,Emergency,Cardiology,I20,Review,27/07/2024 00:09:30,0
+T128,P012,Emergency,Cardiology,I20,CT Scan,28/07/2024 01:09:17,1
+T128,P012,Emergency,Cardiology,I20,Assessment,29/07/2024 22:33:38,3
+T128,P012,Emergency,Cardiology,I20,Discharge - care,30/07/2024 18:02:12,4
+T129,P022,Emergency,Cardiology,I20,Consultation,01/01/2025 01:10:25,7
+T129,P022,Emergency,Cardiology,I20,Discharge - care,04/01/2025 10:34:32,11
+T129,P022,Emergency,Cardiology,I20,Referral,24/12/2024 03:38:51,0
+T129,P022,Emergency,Cardiology,I20,Triage,24/12/2024 08:38:48,0
+T129,P022,Emergency,Cardiology,I20,Bone Density Scan,24/12/2024 09:46:31,0
+T129,P022,Emergency,Cardiology,I20,Review,24/12/2024 10:52:37,0
+T129,P022,Emergency,Cardiology,I20,Treatment,28/12/2024 02:56:44,3
+T129,P022,Emergency,Cardiology,I20,Assessment,29/12/2024 10:49:10,5
+T130,P132,Emergency,Cardiology,I20,Referral,12/01/2025 01:47:31,0
+T130,P132,Emergency,Cardiology,I20,Triage,12/01/2025 03:10:53,0
+T130,P132,Emergency,Cardiology,I20,Review,12/01/2025 08:16:37,0
+T130,P132,Emergency,Cardiology,I20,Echocardiogram,13/01/2025 15:38:37,1
+T130,P132,Emergency,Cardiology,I20,Discharge - home,15/01/2025 02:37:06,3
+T131,P162,Elective,Cardiology,I25,Review,15/04/2025 00:07:49,83
+T131,P162,Elective,Cardiology,I25,Discharge - home,19/04/2025 17:45:49,87
+T131,P162,Elective,Cardiology,I25,Referral,21/01/2025 23:11:01,0
+T131,P162,Elective,Cardiology,I25,Follow-up,26/03/2025 08:42:29,63
+T131,P162,Elective,Cardiology,I25,Angiography,31/01/2025 13:23:02,9
+T132,P036,Emergency,Cardiology,I48,Referral,08/12/2024 03:58:10,0
+T132,P036,Emergency,Cardiology,I48,Triage,08/12/2024 08:23:09,0
+T132,P036,Emergency,Cardiology,I48,Review,08/12/2024 11:00:56,0
+T132,P036,Emergency,Cardiology,I48,Discharge - home,10/12/2024 10:42:51,2
+T133,P122,Elective,Cardiology,I48,MRI,05/07/2024 08:37:09,5
+T133,P122,Elective,Cardiology,I48,Follow-up,21/08/2024 12:57:37,53
+T133,P122,Elective,Cardiology,I48,Assessment,23/08/2024 08:20:31,54
+T133,P122,Elective,Cardiology,I48,Review,25/07/2024 14:47:48,26
+T133,P122,Elective,Cardiology,I48,Discharge - home,28/08/2024 13:08:52,60
+T133,P122,Elective,Cardiology,I48,Referral,29/06/2024 12:25:37,0
+T133,P122,Elective,Cardiology,I48,Consultation,31/07/2024 06:24:11,31
+T134,P074,Elective,Cardiology,I48,Follow-up,02/10/2024 21:06:03,79
+T134,P074,Elective,Cardiology,I48,Consultation,04/08/2024 10:55:24,20
+T134,P074,Elective,Cardiology,I48,Assessment,05/10/2024 09:53:45,81
+T134,P074,Elective,Cardiology,I48,Referral,15/07/2024 10:29:11,0
+T134,P074,Elective,Cardiology,I48,Review,17/10/2024 08:54:41,93
+T134,P074,Elective,Cardiology,I48,Treatment,21/08/2024 23:55:58,37
+T134,P074,Elective,Cardiology,I48,Ultrasound,22/07/2024 23:01:11,7
+T134,P074,Elective,Cardiology,I48,Discharge - care,23/10/2024 09:14:45,99
+T135,P186,Emergency,Cardiology,I10,ECG,08/09/2024 00:02:17,-1
+T135,P186,Emergency,Cardiology,I10,Referral,08/09/2024 11:34:31,0
+T135,P186,Emergency,Cardiology,I10,Triage,08/09/2024 16:27:51,0
+T135,P186,Emergency,Cardiology,I10,Assessment,08/09/2024 16:38:00,0
+T135,P186,Emergency,Cardiology,I10,Review,08/09/2024 21:35:16,0
+T135,P186,Emergency,Cardiology,I10,Treatment,09/09/2024 19:17:51,1
+T135,P186,Emergency,Cardiology,I10,Follow-up,13/09/2024 13:19:18,5
+T135,P186,Emergency,Cardiology,I10,Discharge - home,14/09/2024 12:30:27,6
+T136,P162,Emergency,Orthopedics,M16,ECG,15/12/2024 16:17:21,-1
+T136,P162,Emergency,Orthopedics,M16,Referral,15/12/2024 18:44:34,0
+T136,P162,Emergency,Orthopedics,M16,Triage,15/12/2024 19:44:54,0
+T136,P162,Emergency,Orthopedics,M16,Review,15/12/2024 22:13:20,0
+T136,P162,Emergency,Orthopedics,M16,Discharge - care,20/12/2024 18:59:40,5
+T137,P165,Elective,Cardiology,I20,Referral,01/08/2024 22:51:20,0
+T137,P165,Elective,Cardiology,I20,Follow-up,07/10/2024 14:33:31,66
+T137,P165,Elective,Cardiology,I20,Echocardiogram,09/08/2024 16:48:50,7
+T137,P165,Elective,Cardiology,I20,Triage,14/10/2024 10:57:56,73
+T137,P165,Elective,Cardiology,I20,Treatment,16/08/2024 10:55:51,14
+T137,P165,Elective,Cardiology,I20,Discharge - home,19/10/2024 02:20:29,78
+T137,P165,Elective,Cardiology,I20,Consultation,23/08/2024 17:53:55,21
+T137,P165,Elective,Cardiology,I20,Assessment,27/08/2024 03:12:21,25
+T138,P058,Emergency,Orthopedics,M17,Referral,18/12/2024 16:45:39,0
+T138,P058,Emergency,Orthopedics,M17,Triage,18/12/2024 21:50:42,0
+T138,P058,Emergency,Orthopedics,M17,Review,19/12/2024 02:22:43,0
+T138,P058,Emergency,Orthopedics,M17,Discharge - home,22/12/2024 22:44:55,4
+T139,P174,Elective,Cardiology,I50,Referral,05/12/2024 14:32:46,0
+T139,P174,Elective,Cardiology,I50,Consultation,21/12/2024 13:53:50,15
+T139,P174,Elective,Cardiology,I50,Discharge - home,24/12/2024 22:31:17,19
+T140,P101,Emergency,Orthopedics,M54,Referral,18/04/2024 11:00:21,0
+T140,P101,Emergency,Orthopedics,M54,Triage,18/04/2024 16:24:13,0
+T140,P101,Emergency,Orthopedics,M54,Review,18/04/2024 18:15:36,0
+T140,P101,Emergency,Orthopedics,M54,ECG,19/04/2024 12:52:29,1
+T140,P101,Emergency,Orthopedics,M54,Assessment,21/04/2024 04:15:34,2
+T140,P101,Emergency,Orthopedics,M54,Discharge - home,22/04/2024 05:09:56,3
+T141,P189,Elective,Cardiology,I10,Review,04/02/2025 15:20:19,19
+T141,P189,Elective,Cardiology,I10,Triage,08/02/2025 08:31:28,23
+T141,P189,Elective,Cardiology,I10,Assessment,09/02/2025 18:09:04,24
+T141,P189,Elective,Cardiology,I10,Consultation,13/02/2025 15:15:28,28
+T141,P189,Elective,Cardiology,I10,Referral,16/01/2025 07:35:41,0
+T141,P189,Elective,Cardiology,I10,Blood Test,23/01/2025 14:18:10,7
+T141,P189,Elective,Cardiology,I10,Treatment,24/02/2025 10:26:27,39
+T141,P189,Elective,Cardiology,I10,Discharge - home,27/02/2025 11:41:13,42
+T142,P014,Emergency,Orthopedics,M17,Referral,04/12/2024 16:10:24,0
+T142,P014,Emergency,Orthopedics,M17,Triage,04/12/2024 22:39:06,0
+T142,P014,Emergency,Orthopedics,M17,Review,05/12/2024 03:28:27,0
+T142,P014,Emergency,Orthopedics,M17,Treatment,08/12/2024 08:16:48,3
+T142,P014,Emergency,Orthopedics,M17,Discharge - home,11/12/2024 08:26:18,6
+T143,P161,Emergency,Cardiology,I25,Follow-up,06/04/2025 19:48:55,17
+T143,P161,Emergency,Cardiology,I25,Discharge - home,09/04/2025 18:36:37,20
+T143,P161,Emergency,Cardiology,I25,Referral,20/03/2025 07:45:19,0
+T143,P161,Emergency,Cardiology,I25,Triage,20/03/2025 10:29:57,0
+T143,P161,Emergency,Cardiology,I25,Review,20/03/2025 13:13:16,0
+T143,P161,Emergency,Cardiology,I25,Assessment,22/03/2025 14:50:43,2
+T143,P161,Emergency,Cardiology,I25,Treatment,25/03/2025 14:47:05,5
+T144,P144,Emergency,Cardiology,I20,Referral,01/08/2024 22:10:09,0
+T144,P144,Emergency,Cardiology,I20,Triage,02/08/2024 02:16:21,0
+T144,P144,Emergency,Cardiology,I20,Review,02/08/2024 07:13:27,0
+T144,P144,Emergency,Cardiology,I20,Treatment,03/08/2024 11:15:56,1
+T144,P144,Emergency,Cardiology,I20,Assessment,05/08/2024 15:58:44,3
+T144,P144,Emergency,Cardiology,I20,Discharge - home,07/08/2024 09:38:43,5
+T145,P060,Emergency,Orthopedics,M54,Referral,10/03/2025 02:39:31,0
+T145,P060,Emergency,Orthopedics,M54,Triage,10/03/2025 05:05:33,0
+T145,P060,Emergency,Orthopedics,M54,Review,10/03/2025 11:29:06,0
+T145,P060,Emergency,Orthopedics,M54,Assessment,11/03/2025 09:42:38,1
+T145,P060,Emergency,Orthopedics,M54,Consultation,11/03/2025 15:20:56,1
+T145,P060,Emergency,Orthopedics,M54,Discharge - care,14/03/2025 04:24:36,4
+T146,P038,Elective,Cardiology,I50,Referral,08/01/2025 23:27:09,0
+T146,P038,Elective,Cardiology,I50,Consultation,14/01/2025 06:43:48,5
+T146,P038,Elective,Cardiology,I50,Discharge - care,20/01/2025 23:52:55,12
+T147,P074,Emergency,Cardiology,I10,Referral,11/02/2025 07:16:27,0
+T147,P074,Emergency,Cardiology,I10,Triage,11/02/2025 10:03:49,0
+T147,P074,Emergency,Cardiology,I10,Review,11/02/2025 13:31:29,0
+T147,P074,Emergency,Cardiology,I10,Blood Test,11/02/2025 20:51:31,0
+T147,P074,Emergency,Cardiology,I10,Angiography,12/02/2025 17:46:35,1
+T147,P074,Emergency,Cardiology,I10,Discharge - care,13/02/2025 09:11:20,2
+T148,P034,Elective,Orthopedics,M16,Discharge - home,02/11/2024 01:49:30,128
+T148,P034,Elective,Orthopedics,M16,ECG,10/07/2024 20:12:34,13
+T148,P034,Elective,Orthopedics,M16,Follow-up,23/09/2024 21:02:10,88
+T148,P034,Elective,Orthopedics,M16,Referral,26/06/2024 23:45:32,0
+T148,P034,Elective,Orthopedics,M16,Follow-up,30/10/2024 22:38:25,125
+T149,P098,Emergency,Cardiology,I50,Referral,08/12/2024 12:47:10,0
+T149,P098,Emergency,Cardiology,I50,Triage,08/12/2024 16:06:10,0
+T149,P098,Emergency,Cardiology,I50,Review,08/12/2024 22:29:09,0
+T149,P098,Emergency,Cardiology,I50,Assessment,10/12/2024 17:22:30,2
+T149,P098,Emergency,Cardiology,I50,Discharge - home,13/12/2024 01:50:38,4
+T150,P016,Emergency,Cardiology,I10,Referral,09/01/2025 15:11:54,0
+T150,P016,Emergency,Cardiology,I10,Triage,09/01/2025 16:43:07,0
+T150,P016,Emergency,Cardiology,I10,Review,09/01/2025 18:37:01,0
+T150,P016,Emergency,Cardiology,I10,MRI,10/01/2025 18:10:52,1
+T150,P016,Emergency,Cardiology,I10,Assessment,11/01/2025 01:06:07,1
+T150,P016,Emergency,Cardiology,I10,Treatment,11/01/2025 13:42:02,1
+T150,P016,Emergency,Cardiology,I10,Consultation,12/01/2025 19:28:17,3
+T150,P016,Emergency,Cardiology,I10,Discharge - home,14/01/2025 18:57:40,5
+T151,P123,Emergency,Cardiology,I20,Referral,10/11/2024 01:17:38,0
+T151,P123,Emergency,Cardiology,I20,Triage,10/11/2024 04:48:20,0
+T151,P123,Emergency,Cardiology,I20,Review,10/11/2024 09:42:08,0
+T151,P123,Emergency,Cardiology,I20,Angiography,11/11/2024 18:38:07,1
+T151,P123,Emergency,Cardiology,I20,Discharge - care,12/11/2024 19:06:16,2
+T152,P095,Emergency,Cardiology,I25,Referral,25/03/2025 17:05:11,0
+T152,P095,Emergency,Cardiology,I25,Triage,25/03/2025 22:14:46,0
+T152,P095,Emergency,Cardiology,I25,Bone Density Scan,26/03/2025 04:15:43,0
+T152,P095,Emergency,Cardiology,I25,Review,26/03/2025 04:35:57,0
+T152,P095,Emergency,Cardiology,I25,Discharge - home,28/03/2025 02:54:21,2
+T153,P075,Emergency,Cardiology,I48,Referral,01/03/2025 23:41:51,0
+T153,P075,Emergency,Cardiology,I48,Triage,02/03/2025 04:53:19,0
+T153,P075,Emergency,Cardiology,I48,Review,02/03/2025 10:56:39,0
+T153,P075,Emergency,Cardiology,I48,Discharge - home,05/03/2025 22:49:55,3
+T154,P178,Emergency,Cardiology,I25,Referral,07/12/2024 14:29:54,0
+T154,P178,Emergency,Cardiology,I25,Triage,07/12/2024 18:14:42,0
+T154,P178,Emergency,Cardiology,I25,Review,07/12/2024 19:58:14,0
+T154,P178,Emergency,Cardiology,I25,Echocardiogram,09/12/2024 21:16:00,2
+T154,P178,Emergency,Cardiology,I25,Assessment,10/12/2024 10:31:24,2
+T154,P178,Emergency,Cardiology,I25,Consultation,12/12/2024 00:54:35,4
+T154,P178,Emergency,Cardiology,I25,Treatment,14/12/2024 07:55:40,6
+T154,P178,Emergency,Cardiology,I25,Discharge - home,15/12/2024 15:11:45,8
+T155,P005,Emergency,Orthopedics,M54,Referral,27/09/2024 05:41:11,0
+T155,P005,Emergency,Orthopedics,M54,Triage,27/09/2024 11:15:16,0
+T155,P005,Emergency,Orthopedics,M54,Review,27/09/2024 13:55:07,0
+T155,P005,Emergency,Orthopedics,M54,Discharge - care,29/09/2024 15:17:29,2
+T156,P177,Emergency,Orthopedics,M54,Discharge - home,01/06/2024 05:15:27,1
+T156,P177,Emergency,Orthopedics,M54,Referral,30/05/2024 12:44:29,0
+T156,P177,Emergency,Orthopedics,M54,Triage,30/05/2024 15:45:47,0
+T156,P177,Emergency,Orthopedics,M54,Review,30/05/2024 19:00:01,0
+T157,P063,Emergency,Orthopedics,M17,Referral,11/10/2024 09:04:52,0
+T157,P063,Emergency,Orthopedics,M17,Triage,11/10/2024 11:37:05,0
+T157,P063,Emergency,Orthopedics,M17,Review,11/10/2024 14:41:45,0
+T157,P063,Emergency,Orthopedics,M17,XRay,12/10/2024 15:42:38,1
+T157,P063,Emergency,Orthopedics,M17,Treatment,17/10/2024 03:14:43,5
+T157,P063,Emergency,Orthopedics,M17,Discharge - care,20/10/2024 07:19:57,8
+T158,P004,Emergency,Cardiology,I10,Referral,09/11/2024 08:56:27,0
+T158,P004,Emergency,Cardiology,I10,Triage,09/11/2024 09:38:30,0
+T158,P004,Emergency,Cardiology,I10,Review,09/11/2024 14:28:51,0
+T158,P004,Emergency,Cardiology,I10,Consultation,10/11/2024 23:22:10,1
+T158,P004,Emergency,Cardiology,I10,Discharge - home,11/11/2024 13:11:28,2
+T159,P170,Emergency,Cardiology,I10,Referral,19/05/2024 23:57:00,0
+T159,P170,Emergency,Cardiology,I10,Triage,20/05/2024 04:03:11,0
+T159,P170,Emergency,Cardiology,I10,Review,20/05/2024 07:20:57,0
+T159,P170,Emergency,Cardiology,I10,Ultrasound,21/05/2024 13:41:17,1
+T159,P170,Emergency,Cardiology,I10,Consultation,21/05/2024 21:14:43,1
+T159,P170,Emergency,Cardiology,I10,Discharge - deceased,23/05/2024 15:06:27,3
+T160,P111,Emergency,Cardiology,I25,Referral,02/05/2024 05:38:19,0
+T160,P111,Emergency,Cardiology,I25,Triage,02/05/2024 10:14:56,0
+T160,P111,Emergency,Cardiology,I25,Review,02/05/2024 14:42:53,0
+T160,P111,Emergency,Cardiology,I25,Discharge - deceased,03/05/2024 14:22:45,1
+T161,P190,Emergency,Cardiology,I20,Referral,05/04/2024 22:31:30,0
+T161,P190,Emergency,Cardiology,I20,Triage,06/04/2024 04:14:15,0
+T161,P190,Emergency,Cardiology,I20,Review,06/04/2024 10:50:35,0
+T161,P190,Emergency,Cardiology,I20,Consultation,09/04/2024 23:43:09,4
+T161,P190,Emergency,Cardiology,I20,Discharge - care,11/04/2024 06:55:53,5
+T162,P028,Emergency,Orthopedics,S72,Referral,05/12/2024 09:25:10,0
+T162,P028,Emergency,Orthopedics,S72,Triage,05/12/2024 15:13:57,0
+T162,P028,Emergency,Orthopedics,S72,Review,05/12/2024 18:10:19,0
+T162,P028,Emergency,Orthopedics,S72,Assessment,05/12/2024 18:18:04,0
+T162,P028,Emergency,Orthopedics,S72,Treatment,11/12/2024 10:19:44,6
+T162,P028,Emergency,Orthopedics,S72,Discharge - home,13/12/2024 01:17:58,7
+T163,P048,Emergency,Orthopedics,M54,Referral,24/01/2025 00:58:48,0
+T163,P048,Emergency,Orthopedics,M54,Triage,24/01/2025 02:14:33,0
+T163,P048,Emergency,Orthopedics,M54,Review,24/01/2025 06:01:17,0
+T163,P048,Emergency,Orthopedics,M54,Ultrasound,26/01/2025 19:49:43,2
+T163,P048,Emergency,Orthopedics,M54,Treatment,27/01/2025 19:14:40,3
+T163,P048,Emergency,Orthopedics,M54,Discharge - care,28/01/2025 17:27:43,4
+T164,P051,Emergency,Orthopedics,M17,Referral,14/01/2025 06:42:52,0
+T164,P051,Emergency,Orthopedics,M17,Triage,14/01/2025 11:09:54,0
+T164,P051,Emergency,Orthopedics,M17,Review,14/01/2025 17:38:10,0
+T164,P051,Emergency,Orthopedics,M17,MRI,15/01/2025 19:36:30,1
+T164,P051,Emergency,Orthopedics,M17,CT Scan,15/01/2025 22:18:02,1
+T164,P051,Emergency,Orthopedics,M17,Treatment,20/01/2025 02:37:42,5
+T164,P051,Emergency,Orthopedics,M17,Consultation,20/01/2025 04:47:25,5
+T164,P051,Emergency,Orthopedics,M17,Discharge - home,23/01/2025 13:04:34,9
+T165,P091,Emergency,Cardiology,I50,Treatment,04/04/2025 18:45:25,8
+T165,P091,Emergency,Cardiology,I50,Discharge - care,07/04/2025 14:04:49,10
+T165,P091,Emergency,Cardiology,I50,Referral,27/03/2025 15:33:36,0
+T165,P091,Emergency,Cardiology,I50,Triage,27/03/2025 19:18:27,0
+T165,P091,Emergency,Cardiology,I50,Review,27/03/2025 21:47:44,0
+T165,P091,Emergency,Cardiology,I50,Echocardiogram,28/03/2025 19:06:20,1
+T165,P091,Emergency,Cardiology,I50,Consultation,29/03/2025 22:48:04,2
+T165,P091,Emergency,Cardiology,I50,CT Scan,29/03/2025 23:33:16,2
+T166,P082,Emergency,Cardiology,I48,Referral,17/10/2024 08:48:40,0
+T166,P082,Emergency,Cardiology,I48,Triage,17/10/2024 09:21:24,0
+T166,P082,Emergency,Cardiology,I48,Review,17/10/2024 12:11:38,0
+T166,P082,Emergency,Cardiology,I48,Echocardiogram,18/10/2024 17:06:29,1
+T166,P082,Emergency,Cardiology,I48,Treatment,19/10/2024 12:49:57,2
+T166,P082,Emergency,Cardiology,I48,Discharge - home,22/10/2024 01:29:39,4
+T167,P138,Emergency,Cardiology,I10,Discharge - care,02/11/2024 04:50:59,8
+T167,P138,Emergency,Cardiology,I10,Referral,25/10/2024 03:33:36,0
+T167,P138,Emergency,Cardiology,I10,Triage,25/10/2024 04:36:11,0
+T167,P138,Emergency,Cardiology,I10,Review,25/10/2024 05:54:08,0
+T167,P138,Emergency,Cardiology,I10,Echocardiogram,26/10/2024 21:35:41,1
+T167,P138,Emergency,Cardiology,I10,Assessment,27/10/2024 13:57:31,2
+T167,P138,Emergency,Cardiology,I10,Treatment,27/10/2024 22:19:15,2
+T167,P138,Emergency,Cardiology,I10,Follow-up,31/10/2024 22:43:34,6
+T168,P046,Emergency,Cardiology,I48,Referral,14/05/2024 18:52:53,0
+T168,P046,Emergency,Cardiology,I48,Triage,15/05/2024 00:58:48,0
+T168,P046,Emergency,Cardiology,I48,Review,15/05/2024 01:19:28,0
+T168,P046,Emergency,Cardiology,I48,Follow-up,23/05/2024 21:46:39,9
+T168,P046,Emergency,Cardiology,I48,Consultation,23/05/2024 23:12:01,9
+T168,P046,Emergency,Cardiology,I48,Assessment,24/05/2024 05:55:50,9
+T168,P046,Emergency,Cardiology,I48,Treatment,26/05/2024 11:52:50,11
+T168,P046,Emergency,Cardiology,I48,Discharge - home,29/05/2024 21:07:33,15
+T169,P142,Emergency,Orthopedics,M79,Referral,12/09/2024 08:03:12,0
+T169,P142,Emergency,Orthopedics,M79,Blood Test,12/09/2024 08:34:47,0
+T169,P142,Emergency,Orthopedics,M79,Triage,12/09/2024 14:57:25,0
+T169,P142,Emergency,Orthopedics,M79,Review,12/09/2024 20:50:45,0
+T169,P142,Emergency,Orthopedics,M79,Discharge - home,14/09/2024 00:47:16,1
+T170,P154,Emergency,Cardiology,I50,Follow-up,06/03/2025 19:26:18,7
+T170,P154,Emergency,Cardiology,I50,Assessment,08/03/2025 11:40:15,8
+T170,P154,Emergency,Cardiology,I50,Treatment,11/03/2025 17:47:19,12
+T170,P154,Emergency,Cardiology,I50,Consultation,12/03/2025 16:11:36,13
+T170,P154,Emergency,Cardiology,I50,Discharge - home,13/03/2025 08:59:50,13
+T170,P154,Emergency,Cardiology,I50,Referral,27/02/2025 15:04:49,0
+T170,P154,Emergency,Cardiology,I50,Triage,27/02/2025 19:57:51,0
+T170,P154,Emergency,Cardiology,I50,Review,27/02/2025 20:50:37,0
+T171,P050,Emergency,Cardiology,I50,Referral,24/10/2024 16:01:16,0
+T171,P050,Emergency,Cardiology,I50,Triage,24/10/2024 20:31:39,0
+T171,P050,Emergency,Cardiology,I50,Review,24/10/2024 23:06:33,0
+T171,P050,Emergency,Cardiology,I50,Assessment,24/10/2024 23:58:43,0
+T171,P050,Emergency,Cardiology,I50,Consultation,25/10/2024 23:14:22,1
+T171,P050,Emergency,Cardiology,I50,Discharge - home,26/10/2024 02:26:00,1
+T172,P077,Elective,Orthopedics,M16,Consultation,01/01/2025 10:42:22,34
+T172,P077,Elective,Orthopedics,M16,Discharge - home,06/01/2025 09:50:08,39
+T172,P077,Elective,Orthopedics,M16,Angiography,09/12/2024 03:05:05,11
+T172,P077,Elective,Orthopedics,M16,Referral,27/11/2024 11:55:10,0
+T173,P004,Emergency,Cardiology,I48,Referral,08/03/2025 01:12:33,0
+T173,P004,Emergency,Cardiology,I48,Triage,08/03/2025 04:51:00,0
+T173,P004,Emergency,Cardiology,I48,Review,08/03/2025 10:11:20,0
+T173,P004,Emergency,Cardiology,I48,Follow-up,21/03/2025 05:42:05,13
+T173,P004,Emergency,Cardiology,I48,Treatment,25/03/2025 01:14:32,17
+T173,P004,Emergency,Cardiology,I48,Consultation,25/03/2025 03:19:41,17
+T173,P004,Emergency,Cardiology,I48,Discharge - care,26/03/2025 19:22:54,18
+T174,P046,Emergency,Cardiology,I25,Referral,02/09/2024 08:38:03,0
+T174,P046,Emergency,Cardiology,I25,Triage,02/09/2024 14:58:14,0
+T174,P046,Emergency,Cardiology,I25,Review,02/09/2024 16:40:17,0
+T174,P046,Emergency,Cardiology,I25,Discharge - home,03/09/2024 11:22:03,1
+T175,P071,Elective,Cardiology,I20,Blood Test,08/02/2025 09:36:50,8
+T175,P071,Elective,Cardiology,I20,Discharge - home,13/02/2025 07:05:21,13
+T175,P071,Elective,Cardiology,I20,Referral,30/01/2025 18:27:37,0
+T176,P173,Emergency,Cardiology,I48,Follow-up,13/04/2025 02:19:55,14
+T176,P173,Emergency,Cardiology,I48,Assessment,14/04/2025 12:08:10,16
+T176,P173,Emergency,Cardiology,I48,Consultation,16/04/2025 14:24:37,18
+T176,P173,Emergency,Cardiology,I48,Discharge - home,18/04/2025 11:35:09,19
+T176,P173,Emergency,Cardiology,I48,Referral,29/03/2025 12:05:03,0
+T176,P173,Emergency,Cardiology,I48,Triage,29/03/2025 15:23:41,0
+T176,P173,Emergency,Cardiology,I48,Review,29/03/2025 17:26:42,0
+T176,P173,Emergency,Cardiology,I48,Ultrasound,30/03/2025 21:01:28,1
+T177,P078,Emergency,Orthopedics,S72,Referral,02/09/2024 11:59:08,0
+T177,P078,Emergency,Orthopedics,S72,Triage,02/09/2024 15:27:55,0
+T177,P078,Emergency,Orthopedics,S72,Review,02/09/2024 17:38:36,0
+T177,P078,Emergency,Orthopedics,S72,XRay,06/09/2024 18:22:15,4
+T177,P078,Emergency,Orthopedics,S72,Discharge - care,12/09/2024 15:16:33,10
+T178,P061,Elective,Cardiology,I20,Referral,15/05/2024 17:40:39,0
+T178,P061,Elective,Cardiology,I20,ECG,20/05/2024 18:24:52,5
+T178,P061,Elective,Cardiology,I20,Consultation,27/05/2024 11:42:52,11
+T178,P061,Elective,Cardiology,I20,Discharge - home,30/05/2024 11:05:15,14
+T179,P107,Emergency,Cardiology,I20,Follow-up,09/10/2024 01:42:51,11
+T179,P107,Emergency,Cardiology,I20,Consultation,11/10/2024 22:42:07,14
+T179,P107,Emergency,Cardiology,I20,Assessment,13/10/2024 19:45:20,16
+T179,P107,Emergency,Cardiology,I20,Discharge - care,16/10/2024 09:24:10,18
+T179,P107,Emergency,Cardiology,I20,Referral,27/09/2024 16:39:32,0
+T179,P107,Emergency,Cardiology,I20,Triage,27/09/2024 17:22:31,0
+T179,P107,Emergency,Cardiology,I20,Review,27/09/2024 20:44:15,0
+T179,P107,Emergency,Cardiology,I20,CT Scan,28/09/2024 14:24:37,0
+T180,P120,Elective,Cardiology,I48,Referral,02/08/2024 12:14:50,0
+T180,P120,Elective,Cardiology,I48,Blood Test,08/08/2024 08:49:02,5
+T180,P120,Elective,Cardiology,I48,Discharge - home,15/08/2024 23:55:54,13
+T181,P044,Emergency,Orthopedics,M16,Follow-up,01/09/2024 11:22:32,18
+T181,P044,Emergency,Orthopedics,M16,Consultation,04/09/2024 09:45:21,21
+T181,P044,Emergency,Orthopedics,M16,Assessment,04/09/2024 20:17:05,21
+T181,P044,Emergency,Orthopedics,M16,Treatment,13/09/2024 16:14:07,30
+T181,P044,Emergency,Orthopedics,M16,Referral,14/08/2024 05:10:52,0
+T181,P044,Emergency,Orthopedics,M16,Triage,14/08/2024 07:26:26,0
+T181,P044,Emergency,Orthopedics,M16,Review,14/08/2024 08:35:37,0
+T181,P044,Emergency,Orthopedics,M16,Discharge - home,14/09/2024 22:56:09,31
+T182,P121,Emergency,Cardiology,I25,Referral,03/07/2024 23:08:37,0
+T182,P121,Emergency,Cardiology,I25,Triage,04/07/2024 05:29:44,0
+T182,P121,Emergency,Cardiology,I25,Review,04/07/2024 11:14:49,0
+T182,P121,Emergency,Cardiology,I25,ECG,06/07/2024 16:29:02,2
+T182,P121,Emergency,Cardiology,I25,Follow-up,15/07/2024 01:54:10,11
+T182,P121,Emergency,Cardiology,I25,Discharge - home,17/07/2024 21:45:26,13
+T183,P066,Emergency,Cardiology,I10,Referral,09/12/2024 18:54:57,0
+T183,P066,Emergency,Cardiology,I10,Triage,09/12/2024 21:04:09,0
+T183,P066,Emergency,Cardiology,I10,Review,10/12/2024 00:16:55,0
+T183,P066,Emergency,Cardiology,I10,ECG,11/12/2024 17:02:41,1
+T183,P066,Emergency,Cardiology,I10,Discharge - home,13/12/2024 15:22:22,3
+T184,P031,Elective,Cardiology,I10,Assessment,01/11/2024 07:33:12,2
+T184,P031,Elective,Cardiology,I10,Discharge - home,02/11/2024 06:08:27,3
+T184,P031,Elective,Cardiology,I10,Referral,29/10/2024 10:43:25,0
+T185,P072,Emergency,Orthopedics,M17,Referral,13/07/2024 05:26:49,0
+T185,P072,Emergency,Orthopedics,M17,Triage,13/07/2024 07:08:31,0
+T185,P072,Emergency,Orthopedics,M17,Review,13/07/2024 09:49:28,0
+T185,P072,Emergency,Orthopedics,M17,Discharge - care,16/07/2024 16:03:04,3
+T186,P156,Elective,Orthopedics,S72,Discharge - home,10/10/2024 00:31:01,54
+T186,P156,Elective,Orthopedics,S72,Referral,16/08/2024 06:44:56,0
+T186,P156,Elective,Orthopedics,S72,Consultation,16/09/2024 06:30:05,30
+T186,P156,Elective,Orthopedics,S72,Assessment,25/09/2024 19:22:59,40
+T187,P067,Emergency,Cardiology,I50,Discharge - home,03/01/2025 18:35:12,6
+T187,P067,Emergency,Cardiology,I50,Referral,28/12/2024 11:59:02,0
+T187,P067,Emergency,Cardiology,I50,Triage,28/12/2024 15:43:56,0
+T187,P067,Emergency,Cardiology,I50,Review,28/12/2024 21:03:15,0
+T187,P067,Emergency,Cardiology,I50,CT Scan,29/12/2024 04:53:31,0
+T187,P067,Emergency,Cardiology,I50,Assessment,31/12/2024 20:22:12,3
+T188,P084,Emergency,Cardiology,I50,Follow-up,11/12/2024 00:00:38,16
+T188,P084,Emergency,Cardiology,I50,Discharge - deceased,14/12/2024 18:05:42,20
+T188,P084,Emergency,Cardiology,I50,Referral,24/11/2024 11:19:53,0
+T188,P084,Emergency,Cardiology,I50,Triage,24/11/2024 17:50:05,0
+T188,P084,Emergency,Cardiology,I50,Treatment,24/11/2024 18:12:42,0
+T188,P084,Emergency,Cardiology,I50,Review,24/11/2024 19:51:10,0
+T188,P084,Emergency,Cardiology,I50,Consultation,27/11/2024 12:21:15,3
+T189,P181,Emergency,Orthopedics,M54,Referral,15/12/2024 17:19:04,0
+T189,P181,Emergency,Orthopedics,M54,Triage,15/12/2024 22:12:37,0
+T189,P181,Emergency,Orthopedics,M54,Review,16/12/2024 01:25:52,0
+T189,P181,Emergency,Orthopedics,M54,CT Scan,16/12/2024 07:52:30,0
+T189,P181,Emergency,Orthopedics,M54,Treatment,19/12/2024 13:46:07,3
+T189,P181,Emergency,Orthopedics,M54,Discharge - home,21/12/2024 08:42:37,5
+T190,P129,Emergency,Orthopedics,M79,Referral,09/07/2024 10:35:46,0
+T190,P129,Emergency,Orthopedics,M79,Triage,09/07/2024 12:18:37,0
+T190,P129,Emergency,Orthopedics,M79,Review,09/07/2024 13:23:14,0
+T190,P129,Emergency,Orthopedics,M79,Assessment,22/07/2024 04:35:33,12
+T190,P129,Emergency,Orthopedics,M79,Follow-up,22/07/2024 12:34:54,13
+T190,P129,Emergency,Orthopedics,M79,Treatment,22/07/2024 12:40:44,13
+T190,P129,Emergency,Orthopedics,M79,Consultation,22/07/2024 12:56:31,13
+T190,P129,Emergency,Orthopedics,M79,Discharge - care,24/07/2024 06:31:18,14
+T191,P005,Elective,Cardiology,I48,Referral,22/01/2025 14:40:24,0
+T191,P005,Elective,Cardiology,I48,Discharge - home,28/01/2025 03:48:02,5
+T192,P114,Emergency,Orthopedics,M79,Referral,19/06/2024 03:01:00,0
+T192,P114,Emergency,Orthopedics,M79,Triage,19/06/2024 09:50:03,0
+T192,P114,Emergency,Orthopedics,M79,ECG,19/06/2024 12:10:30,0
+T192,P114,Emergency,Orthopedics,M79,Review,19/06/2024 14:30:31,0
+T192,P114,Emergency,Orthopedics,M79,Discharge - home,20/06/2024 09:12:19,1
+T193,P139,Emergency,Orthopedics,M16,Referral,15/10/2024 20:13:26,0
+T193,P139,Emergency,Orthopedics,M16,Triage,15/10/2024 21:24:50,0
+T193,P139,Emergency,Orthopedics,M16,Review,16/10/2024 00:07:26,0
+T193,P139,Emergency,Orthopedics,M16,Ultrasound,17/10/2024 18:50:52,1
+T193,P139,Emergency,Orthopedics,M16,Assessment,18/10/2024 15:34:08,2
+T193,P139,Emergency,Orthopedics,M16,Treatment,21/10/2024 09:00:28,5
+T193,P139,Emergency,Orthopedics,M16,Discharge - home,24/10/2024 03:24:20,8
+T194,P129,Emergency,Orthopedics,M79,Follow-up,10/10/2024 19:00:28,13
+T194,P129,Emergency,Orthopedics,M79,Treatment,16/10/2024 19:26:35,20
+T194,P129,Emergency,Orthopedics,M79,Discharge - home,20/10/2024 22:03:17,24
+T194,P129,Emergency,Orthopedics,M79,Referral,26/09/2024 19:26:01,0
+T194,P129,Emergency,Orthopedics,M79,Triage,26/09/2024 21:19:43,0
+T194,P129,Emergency,Orthopedics,M79,Review,27/09/2024 02:59:09,0
+T195,P100,Emergency,Cardiology,I20,Referral,19/02/2025 07:04:41,0
+T195,P100,Emergency,Cardiology,I20,Triage,19/02/2025 13:55:19,0
+T195,P100,Emergency,Cardiology,I20,Review,19/02/2025 18:21:18,0
+T195,P100,Emergency,Cardiology,I20,Consultation,21/02/2025 09:17:59,2
+T195,P100,Emergency,Cardiology,I20,Discharge - care,24/02/2025 01:34:29,4
+T196,P167,Elective,Orthopedics,M79,Review,07/06/2024 02:26:44,28
+T196,P167,Elective,Orthopedics,M79,Follow-up,08/08/2024 18:05:23,91
+T196,P167,Elective,Orthopedics,M79,Referral,09/05/2024 07:28:52,0
+T196,P167,Elective,Orthopedics,M79,Discharge - home,10/08/2024 18:10:39,93
+T196,P167,Elective,Orthopedics,M79,Echocardiogram,14/05/2024 01:06:35,4
+T196,P167,Elective,Orthopedics,M79,Triage,15/06/2024 17:42:25,37
+T196,P167,Elective,Orthopedics,M79,Assessment,21/06/2024 09:27:16,43
+T197,P166,Elective,Orthopedics,M54,Treatment,05/04/2025 00:17:03,63
+T197,P166,Elective,Orthopedics,M54,Triage,08/04/2025 08:10:53,66
+T197,P166,Elective,Orthopedics,M54,Bone Density Scan,10/02/2025 03:34:10,9
+T197,P166,Elective,Orthopedics,M54,Follow-up,12/03/2025 01:56:42,39
+T197,P166,Elective,Orthopedics,M54,Discharge - care,12/04/2025 14:36:52,70
+T197,P166,Elective,Orthopedics,M54,Referral,31/01/2025 16:14:26,0
+T198,P193,Emergency,Cardiology,I10,Referral,29/07/2024 14:35:12,0
+T198,P193,Emergency,Cardiology,I10,Triage,29/07/2024 17:53:51,0
+T198,P193,Emergency,Cardiology,I10,Review,29/07/2024 22:13:14,0
+T198,P193,Emergency,Cardiology,I10,Discharge - home,30/07/2024 03:02:06,0
+T199,P093,Emergency,Orthopedics,M17,Referral,14/11/2024 10:33:47,0
+T199,P093,Emergency,Orthopedics,M17,Triage,14/11/2024 11:34:57,0
+T199,P093,Emergency,Orthopedics,M17,Review,14/11/2024 15:55:44,0
+T199,P093,Emergency,Orthopedics,M17,MRI,15/11/2024 07:06:28,0
+T199,P093,Emergency,Orthopedics,M17,Assessment,16/11/2024 23:18:54,2
+T199,P093,Emergency,Orthopedics,M17,Discharge - home,17/11/2024 04:39:27,2
+T200,P187,Elective,Orthopedics,M17,Referral,02/10/2024 11:26:38,0
+T200,P187,Elective,Orthopedics,M17,Discharge - home,09/10/2024 04:25:28,6
+T201,P175,Emergency,Cardiology,I25,Referral,01/11/2024 17:59:55,0
+T201,P175,Emergency,Cardiology,I25,Triage,01/11/2024 20:00:33,0
+T201,P175,Emergency,Cardiology,I25,Review,01/11/2024 23:38:51,0
+T201,P175,Emergency,Cardiology,I25,Echocardiogram,02/11/2024 21:42:31,1
+T201,P175,Emergency,Cardiology,I25,Treatment,06/11/2024 05:11:53,4
+T201,P175,Emergency,Cardiology,I25,Discharge - home,09/11/2024 22:14:23,8
+T202,P060,Emergency,Orthopedics,S72,Follow-up,15/07/2024 05:39:53,28
+T202,P060,Emergency,Orthopedics,S72,Referral,16/06/2024 20:41:07,0
+T202,P060,Emergency,Orthopedics,S72,Triage,16/06/2024 22:28:19,0
+T202,P060,Emergency,Orthopedics,S72,Review,17/06/2024 01:47:45,0
+T202,P060,Emergency,Orthopedics,S72,Discharge - deceased,17/07/2024 13:31:40,30
+T202,P060,Emergency,Orthopedics,S72,Consultation,21/06/2024 12:57:58,4
+T202,P060,Emergency,Orthopedics,S72,Treatment,25/06/2024 07:28:27,8
+T203,P086,Emergency,Orthopedics,S72,Follow-up,18/10/2024 10:29:50,26
+T203,P086,Emergency,Orthopedics,S72,Referral,22/09/2024 01:45:13,0
+T203,P086,Emergency,Orthopedics,S72,Triage,22/09/2024 07:42:14,0
+T203,P086,Emergency,Orthopedics,S72,Review,22/09/2024 11:15:48,0
+T203,P086,Emergency,Orthopedics,S72,Discharge - home,22/10/2024 20:18:02,30
+T203,P086,Emergency,Orthopedics,S72,Consultation,24/09/2024 05:08:56,2
+T203,P086,Emergency,Orthopedics,S72,Echocardiogram,24/09/2024 20:25:49,2
+T204,P063,Emergency,Orthopedics,M79,Follow-up,16/02/2025 03:22:42,19
+T204,P063,Emergency,Orthopedics,M79,Consultation,20/02/2025 04:04:19,23
+T204,P063,Emergency,Orthopedics,M79,Discharge - care,24/02/2025 10:48:45,27
+T204,P063,Emergency,Orthopedics,M79,Referral,27/01/2025 18:11:41,0
+T204,P063,Emergency,Orthopedics,M79,Triage,28/01/2025 00:29:59,0
+T204,P063,Emergency,Orthopedics,M79,CT Scan,28/01/2025 01:56:09,0
+T204,P063,Emergency,Orthopedics,M79,Review,28/01/2025 06:50:32,0
+T204,P063,Emergency,Orthopedics,M79,ECG,29/01/2025 15:41:06,1
+T205,P151,Emergency,Cardiology,I10,Referral,26/03/2025 22:57:43,0
+T205,P151,Emergency,Cardiology,I10,Triage,27/03/2025 02:06:01,0
+T205,P151,Emergency,Cardiology,I10,Review,27/03/2025 03:54:14,0
+T205,P151,Emergency,Cardiology,I10,Angiography,28/03/2025 00:21:56,1
+T205,P151,Emergency,Cardiology,I10,Echocardiogram,29/03/2025 13:40:32,2
+T205,P151,Emergency,Cardiology,I10,Assessment,29/03/2025 20:33:25,2
+T205,P151,Emergency,Cardiology,I10,Discharge - care,31/03/2025 17:24:46,4
+T206,P077,Emergency,Cardiology,I25,Referral,17/03/2025 10:29:39,0
+T206,P077,Emergency,Cardiology,I25,Triage,17/03/2025 11:29:28,0
+T206,P077,Emergency,Cardiology,I25,Review,17/03/2025 14:17:22,0
+T206,P077,Emergency,Cardiology,I25,Treatment,25/03/2025 03:01:52,7
+T206,P077,Emergency,Cardiology,I25,Follow-up,25/03/2025 13:25:08,8
+T206,P077,Emergency,Cardiology,I25,Assessment,27/03/2025 19:17:09,10
+T206,P077,Emergency,Cardiology,I25,Discharge - home,29/03/2025 05:00:46,11
+T207,P182,Emergency,Orthopedics,S72,Referral,09/05/2024 09:16:58,0
+T207,P182,Emergency,Orthopedics,S72,Triage,09/05/2024 13:52:03,0
+T207,P182,Emergency,Orthopedics,S72,Review,09/05/2024 18:14:31,0
+T207,P182,Emergency,Orthopedics,S72,MRI,13/05/2024 04:17:29,3
+T207,P182,Emergency,Orthopedics,S72,Assessment,17/05/2024 21:43:46,8
+T207,P182,Emergency,Orthopedics,S72,Discharge - home,21/05/2024 07:28:37,11
+T208,P141,Elective,Orthopedics,M54,Discharge - home,07/10/2024 11:45:06,7
+T208,P141,Elective,Orthopedics,M54,Referral,30/09/2024 02:27:07,0
+T209,P024,Elective,Cardiology,I10,Referral,10/02/2025 04:16:27,0
+T209,P024,Elective,Cardiology,I10,Blood Test,18/02/2025 13:48:52,8
+T209,P024,Elective,Cardiology,I10,Discharge - home,21/02/2025 00:29:09,10
+T210,P186,Emergency,Orthopedics,M79,Referral,12/11/2024 03:07:12,0
+T210,P186,Emergency,Orthopedics,M79,Triage,12/11/2024 05:51:14,0
+T210,P186,Emergency,Orthopedics,M79,Review,12/11/2024 11:27:46,0
+T210,P186,Emergency,Orthopedics,M79,ECG,14/11/2024 02:24:14,1
+T210,P186,Emergency,Orthopedics,M79,Follow-up,23/11/2024 18:50:47,11
+T210,P186,Emergency,Orthopedics,M79,Treatment,28/11/2024 00:52:47,15
+T210,P186,Emergency,Orthopedics,M79,Discharge - care,29/11/2024 10:09:02,17
+T211,P035,Elective,Cardiology,I50,Referral,22/04/2024 09:51:06,0
+T211,P035,Elective,Cardiology,I50,Discharge - home,27/04/2024 17:25:18,5
+T212,P097,Elective,Orthopedics,M79,Referral,02/05/2024 15:32:51,0
+T212,P097,Elective,Orthopedics,M79,Assessment,04/05/2024 13:57:54,1
+T212,P097,Elective,Orthopedics,M79,Discharge - home,08/05/2024 22:25:54,6
+T213,P162,Emergency,Orthopedics,M79,Referral,10/10/2024 04:37:56,0
+T213,P162,Emergency,Orthopedics,M79,Triage,10/10/2024 09:27:41,0
+T213,P162,Emergency,Orthopedics,M79,Review,10/10/2024 13:19:19,0
+T213,P162,Emergency,Orthopedics,M79,Angiography,12/10/2024 03:26:49,1
+T213,P162,Emergency,Orthopedics,M79,Discharge - care,14/10/2024 15:30:02,4
+T214,P105,Emergency,Cardiology,I25,Referral,22/06/2024 19:25:28,0
+T214,P105,Emergency,Cardiology,I25,Triage,22/06/2024 21:57:58,0
+T214,P105,Emergency,Cardiology,I25,Review,23/06/2024 03:37:04,0
+T214,P105,Emergency,Cardiology,I25,Discharge - home,26/06/2024 11:05:19,3
+T215,P007,Elective,Orthopedics,S72,Assessment,01/01/2025 15:52:58,5
+T215,P007,Elective,Orthopedics,S72,Review,03/02/2025 08:34:22,38
+T215,P007,Elective,Orthopedics,S72,Triage,04/04/2025 02:20:59,98
+T215,P007,Elective,Orthopedics,S72,Discharge - home,11/08/2025 14:29:58,227
+T215,P007,Elective,Orthopedics,S72,Treatment,15/03/2025 14:45:13,78
+T215,P007,Elective,Orthopedics,S72,Consultation,19/04/2025 07:24:08,113
+T215,P007,Elective,Orthopedics,S72,Referral,26/12/2024 16:17:34,0
+T215,P007,Elective,Orthopedics,S72,Follow-up,27/07/2025 01:06:17,212
+T216,P047,Emergency,Orthopedics,M17,Review,01/10/2024 05:58:17,0
+T216,P047,Emergency,Orthopedics,M17,Discharge - home,04/10/2024 10:26:57,3
+T216,P047,Emergency,Orthopedics,M17,Referral,30/09/2024 21:57:41,0
+T216,P047,Emergency,Orthopedics,M17,Triage,30/09/2024 23:53:28,0
+T217,P019,Emergency,Orthopedics,M54,Follow-up,11/05/2024 20:25:38,18
+T217,P019,Emergency,Orthopedics,M54,Discharge - home,12/05/2024 16:13:29,19
+T217,P019,Emergency,Orthopedics,M54,Referral,23/04/2024 03:01:14,0
+T217,P019,Emergency,Orthopedics,M54,Triage,23/04/2024 06:29:15,0
+T217,P019,Emergency,Orthopedics,M54,Review,23/04/2024 10:30:12,0
+T217,P019,Emergency,Orthopedics,M54,Consultation,23/04/2024 15:55:25,0
+T217,P019,Emergency,Orthopedics,M54,Assessment,25/04/2024 23:01:59,2
+T217,P019,Emergency,Orthopedics,M54,Treatment,28/04/2024 20:13:28,5
+T218,P011,Emergency,Cardiology,I25,Referral,10/12/2024 20:17:10,0
+T218,P011,Emergency,Cardiology,I25,Triage,11/12/2024 00:48:14,0
+T218,P011,Emergency,Cardiology,I25,Review,11/12/2024 01:11:36,0
+T218,P011,Emergency,Cardiology,I25,Echocardiogram,13/12/2024 14:34:57,2
+T218,P011,Emergency,Cardiology,I25,Assessment,15/12/2024 02:04:34,4
+T218,P011,Emergency,Cardiology,I25,Consultation,16/12/2024 10:59:43,5
+T218,P011,Emergency,Cardiology,I25,Treatment,22/12/2024 05:19:51,11
+T218,P011,Emergency,Cardiology,I25,Discharge - home,25/12/2024 00:10:06,14
+T219,P089,Emergency,Cardiology,I25,Referral,18/11/2024 15:26:17,0
+T219,P089,Emergency,Cardiology,I25,Triage,18/11/2024 20:00:14,0
+T219,P089,Emergency,Cardiology,I25,XRay,19/11/2024 01:55:50,0
+T219,P089,Emergency,Cardiology,I25,Review,19/11/2024 02:54:52,0
+T219,P089,Emergency,Cardiology,I25,CT Scan,21/11/2024 03:42:56,2
+T219,P089,Emergency,Cardiology,I25,Discharge - home,23/11/2024 01:25:54,4
+T220,P184,Emergency,Orthopedics,M54,Referral,16/11/2024 07:56:29,0
+T220,P184,Emergency,Orthopedics,M54,Triage,16/11/2024 13:28:42,0
+T220,P184,Emergency,Orthopedics,M54,Review,16/11/2024 17:04:19,0
+T220,P184,Emergency,Orthopedics,M54,Assessment,18/11/2024 20:05:54,2
+T220,P184,Emergency,Orthopedics,M54,Consultation,21/11/2024 15:55:38,5
+T220,P184,Emergency,Orthopedics,M54,Discharge - home,22/11/2024 19:15:48,6
+T221,P054,Emergency,Orthopedics,S72,Referral,09/09/2024 20:11:46,0
+T221,P054,Emergency,Orthopedics,S72,Triage,10/09/2024 00:36:36,0
+T221,P054,Emergency,Orthopedics,S72,Review,10/09/2024 04:38:22,0
+T221,P054,Emergency,Orthopedics,S72,XRay,12/09/2024 06:38:33,2
+T221,P054,Emergency,Orthopedics,S72,Assessment,16/09/2024 10:03:18,6
+T221,P054,Emergency,Orthopedics,S72,Discharge - home,20/09/2024 07:27:01,10
+T222,P179,Elective,Cardiology,I25,Referral,01/02/2025 11:03:49,0
+T222,P179,Elective,Cardiology,I25,Review,03/05/2025 16:50:09,91
+T222,P179,Elective,Cardiology,I25,Triage,05/02/2025 16:25:20,4
+T222,P179,Elective,Cardiology,I25,Assessment,05/05/2025 19:20:47,93
+T222,P179,Elective,Cardiology,I25,Discharge - home,13/05/2025 09:59:49,100
+T222,P179,Elective,Cardiology,I25,Consultation,14/04/2025 00:06:49,71
+T222,P179,Elective,Cardiology,I25,Treatment,24/02/2025 00:57:08,22
+T222,P179,Elective,Cardiology,I25,Follow-up,29/03/2025 21:19:48,56
+T223,P128,Emergency,Orthopedics,S72,Assessment,10/02/2025 19:12:06,20
+T223,P128,Emergency,Orthopedics,S72,Follow-up,10/02/2025 21:21:21,20
+T223,P128,Emergency,Orthopedics,S72,Discharge - home,12/02/2025 19:59:31,22
+T223,P128,Emergency,Orthopedics,S72,Referral,21/01/2025 18:34:37,0
+T223,P128,Emergency,Orthopedics,S72,Triage,21/01/2025 20:31:13,0
+T223,P128,Emergency,Orthopedics,S72,Review,22/01/2025 00:15:06,0
+T223,P128,Emergency,Orthopedics,S72,ECG,26/01/2025 19:36:17,5
+T223,P128,Emergency,Orthopedics,S72,Consultation,28/01/2025 15:57:49,6
+T224,P139,Emergency,Orthopedics,M16,Discharge - deceased,01/09/2024 22:53:39,6
+T224,P139,Emergency,Orthopedics,M16,Referral,26/08/2024 09:19:32,0
+T224,P139,Emergency,Orthopedics,M16,Triage,26/08/2024 15:03:05,0
+T224,P139,Emergency,Orthopedics,M16,Review,26/08/2024 18:40:37,0
+T224,P139,Emergency,Orthopedics,M16,CT Scan,27/08/2024 12:44:27,1
+T225,P192,Emergency,Cardiology,I25,Referral,10/01/2025 09:42:29,0
+T225,P192,Emergency,Cardiology,I25,Triage,10/01/2025 12:27:49,0
+T225,P192,Emergency,Cardiology,I25,Review,10/01/2025 15:48:30,0
+T225,P192,Emergency,Cardiology,I25,Echocardiogram,12/01/2025 05:07:43,1
+T225,P192,Emergency,Cardiology,I25,Follow-up,19/01/2025 22:08:05,9
+T225,P192,Emergency,Cardiology,I25,Discharge - home,22/01/2025 08:49:02,11
+T226,P184,Emergency,Cardiology,I25,Referral,07/03/2025 05:20:25,0
+T226,P184,Emergency,Cardiology,I25,Triage,07/03/2025 08:36:12,0
+T226,P184,Emergency,Cardiology,I25,Review,07/03/2025 10:13:24,0
+T226,P184,Emergency,Cardiology,I25,Bone Density Scan,07/03/2025 16:37:52,0
+T226,P184,Emergency,Cardiology,I25,Consultation,09/03/2025 17:43:34,2
+T226,P184,Emergency,Cardiology,I25,Assessment,10/03/2025 07:41:59,3
+T226,P184,Emergency,Cardiology,I25,Discharge - care,12/03/2025 23:40:05,5
+T227,P125,Emergency,Cardiology,I20,Referral,07/01/2025 18:14:06,0
+T227,P125,Emergency,Cardiology,I20,Triage,07/01/2025 22:29:09,0
+T227,P125,Emergency,Cardiology,I20,Review,07/01/2025 23:09:07,0
+T227,P125,Emergency,Cardiology,I20,Consultation,08/01/2025 03:30:51,0
+T227,P125,Emergency,Cardiology,I20,Follow-up,15/01/2025 06:31:46,7
+T227,P125,Emergency,Cardiology,I20,Discharge - home,17/01/2025 13:05:31,9
+T228,P133,Emergency,Cardiology,I48,Triage,01/01/2025 03:55:23,0
+T228,P133,Emergency,Cardiology,I48,Review,01/01/2025 08:49:34,0
+T228,P133,Emergency,Cardiology,I48,Echocardiogram,03/01/2025 20:09:48,2
+T228,P133,Emergency,Cardiology,I48,Assessment,05/01/2025 12:32:31,4
+T228,P133,Emergency,Cardiology,I48,Consultation,08/01/2025 02:31:29,7
+T228,P133,Emergency,Cardiology,I48,Treatment,11/01/2025 09:28:19,10
+T228,P133,Emergency,Cardiology,I48,Discharge - deceased,14/01/2025 12:45:07,13
+T228,P133,Emergency,Cardiology,I48,Referral,31/12/2024 23:14:26,0
+T229,P164,Emergency,Cardiology,I50,Referral,03/06/2024 21:24:48,0
+T229,P164,Emergency,Cardiology,I50,Triage,04/06/2024 00:28:55,0
+T229,P164,Emergency,Cardiology,I50,Review,04/06/2024 05:48:56,0
+T229,P164,Emergency,Cardiology,I50,ECG,06/06/2024 03:25:47,2
+T229,P164,Emergency,Cardiology,I50,Follow-up,16/06/2024 11:59:15,12
+T229,P164,Emergency,Cardiology,I50,Consultation,18/06/2024 05:59:40,14
+T229,P164,Emergency,Cardiology,I50,Discharge - home,21/06/2024 11:16:07,17
+T230,P065,Elective,Orthopedics,S72,Discharge - home,09/07/2024 04:16:50,8
+T230,P065,Elective,Orthopedics,S72,Referral,30/06/2024 14:49:53,0
+T231,P140,Emergency,Orthopedics,M79,Referral,14/05/2024 06:37:00,0
+T231,P140,Emergency,Orthopedics,M79,Triage,14/05/2024 09:53:38,0
+T231,P140,Emergency,Orthopedics,M79,Review,14/05/2024 15:51:06,0
+T231,P140,Emergency,Orthopedics,M79,Bone Density Scan,14/05/2024 19:22:22,0
+T231,P140,Emergency,Orthopedics,M79,Discharge - home,15/05/2024 07:29:18,1
+T232,P085,Elective,Cardiology,I25,Referral,12/09/2024 12:53:23,0
+T232,P085,Elective,Cardiology,I25,Bone Density Scan,18/09/2024 16:44:56,6
+T232,P085,Elective,Cardiology,I25,Discharge - home,26/09/2024 10:37:34,13
+T233,P136,Elective,Cardiology,I20,Referral,18/05/2024 02:57:10,0
+T233,P136,Elective,Cardiology,I20,Echocardiogram,22/05/2024 16:37:24,4
+T233,P136,Elective,Cardiology,I20,Bone Density Scan,29/05/2024 14:39:17,11
+T233,P136,Elective,Cardiology,I20,Discharge - home,31/05/2024 16:28:29,13
+T234,P070,Emergency,Orthopedics,M16,Discharge - home,03/05/2024 10:04:43,4
+T234,P070,Emergency,Orthopedics,M16,Referral,29/04/2024 10:01:13,0
+T234,P070,Emergency,Orthopedics,M16,Triage,29/04/2024 14:04:34,0
+T234,P070,Emergency,Orthopedics,M16,Review,29/04/2024 20:00:22,0
+T234,P070,Emergency,Orthopedics,M16,Echocardiogram,30/04/2024 03:59:11,0
+T235,P037,Emergency,Orthopedics,M16,Referral,04/04/2024 15:38:01,0
+T235,P037,Emergency,Orthopedics,M16,Triage,04/04/2024 17:49:24,0
+T235,P037,Emergency,Orthopedics,M16,Review,04/04/2024 21:42:20,0
+T235,P037,Emergency,Orthopedics,M16,Echocardiogram,07/04/2024 07:02:15,2
+T235,P037,Emergency,Orthopedics,M16,Discharge - care,10/04/2024 13:46:08,5
+T236,P023,Elective,Cardiology,I50,Referral,01/11/2024 18:03:50,0
+T236,P023,Elective,Cardiology,I50,Assessment,06/11/2024 11:48:02,4
+T236,P023,Elective,Cardiology,I50,Triage,12/11/2024 03:18:45,10
+T236,P023,Elective,Cardiology,I50,Review,25/11/2024 13:19:16,23
+T236,P023,Elective,Cardiology,I50,Discharge - home,28/11/2024 06:36:12,26
+T237,P109,Emergency,Cardiology,I10,Referral,12/12/2024 19:50:58,0
+T237,P109,Emergency,Cardiology,I10,Triage,12/12/2024 22:54:28,0
+T237,P109,Emergency,Cardiology,I10,Review,13/12/2024 04:35:49,0
+T237,P109,Emergency,Cardiology,I10,Follow-up,21/12/2024 08:24:25,8
+T237,P109,Emergency,Cardiology,I10,Assessment,22/12/2024 09:37:55,9
+T237,P109,Emergency,Cardiology,I10,Treatment,26/12/2024 03:49:48,13
+T237,P109,Emergency,Cardiology,I10,Discharge - home,28/12/2024 04:12:15,15
+T238,P188,Emergency,Orthopedics,M17,Referral,18/02/2025 09:46:07,0
+T238,P188,Emergency,Orthopedics,M17,Triage,18/02/2025 13:44:39,0
+T238,P188,Emergency,Orthopedics,M17,Review,18/02/2025 17:54:59,0
+T238,P188,Emergency,Orthopedics,M17,Discharge - home,19/02/2025 10:49:35,1
+T239,P032,Emergency,Orthopedics,M79,Referral,11/10/2024 16:38:15,0
+T239,P032,Emergency,Orthopedics,M79,Triage,11/10/2024 22:20:33,0
+T239,P032,Emergency,Orthopedics,M79,Review,12/10/2024 01:21:15,0
+T239,P032,Emergency,Orthopedics,M79,Discharge - home,13/10/2024 11:29:39,1
+T240,P073,Emergency,Cardiology,I48,Referral,09/05/2024 06:40:19,0
+T240,P073,Emergency,Cardiology,I48,Triage,09/05/2024 08:49:52,0
+T240,P073,Emergency,Cardiology,I48,Review,09/05/2024 10:35:19,0
+T240,P073,Emergency,Cardiology,I48,Ultrasound,11/05/2024 21:04:23,2
+T240,P073,Emergency,Cardiology,I48,Consultation,14/05/2024 19:32:28,5
+T240,P073,Emergency,Cardiology,I48,Treatment,16/05/2024 09:57:51,7
+T240,P073,Emergency,Cardiology,I48,Discharge - home,18/05/2024 18:00:37,9
+T241,P124,Elective,Cardiology,I20,Referral,20/10/2024 13:18:32,0
+T241,P124,Elective,Cardiology,I20,Discharge - home,27/10/2024 19:10:02,7
+T242,P195,Emergency,Orthopedics,M54,Referral,07/11/2024 04:03:44,0
+T242,P195,Emergency,Orthopedics,M54,Triage,07/11/2024 09:16:11,0
+T242,P195,Emergency,Orthopedics,M54,Review,07/11/2024 12:37:36,0
+T242,P195,Emergency,Orthopedics,M54,Discharge - home,09/11/2024 13:50:36,2
+T243,P150,Emergency,Orthopedics,M17,Referral,16/02/2025 08:23:51,0
+T243,P150,Emergency,Orthopedics,M17,Triage,16/02/2025 12:05:56,0
+T243,P150,Emergency,Orthopedics,M17,Review,16/02/2025 18:03:10,0
+T243,P150,Emergency,Orthopedics,M17,Discharge - care,21/02/2025 13:57:56,5
+T244,P147,Emergency,Orthopedics,M79,Referral,10/01/2025 17:06:19,0
+T244,P147,Emergency,Orthopedics,M79,Triage,10/01/2025 23:36:51,0
+T244,P147,Emergency,Orthopedics,M79,Review,11/01/2025 05:56:05,0
+T244,P147,Emergency,Orthopedics,M79,Consultation,17/01/2025 11:32:14,6
+T244,P147,Emergency,Orthopedics,M79,Treatment,17/01/2025 12:20:34,6
+T244,P147,Emergency,Orthopedics,M79,Follow-up,17/01/2025 23:25:20,7
+T244,P147,Emergency,Orthopedics,M79,Assessment,19/01/2025 08:21:50,8
+T244,P147,Emergency,Orthopedics,M79,Discharge - home,21/01/2025 03:20:11,10
+T245,P001,Emergency,Cardiology,I10,Referral,22/12/2024 21:13:58,0
+T245,P001,Emergency,Cardiology,I10,Triage,22/12/2024 23:50:36,0
+T245,P001,Emergency,Cardiology,I10,Review,23/12/2024 05:20:53,0
+T245,P001,Emergency,Cardiology,I10,Discharge - home,24/12/2024 06:27:54,1
+T246,P168,Elective,Orthopedics,M17,Review,05/03/2025 11:06:18,53
+T246,P168,Elective,Orthopedics,M17,Referral,10/01/2025 17:53:00,0
+T246,P168,Elective,Orthopedics,M17,Treatment,14/02/2025 08:36:13,34
+T246,P168,Elective,Orthopedics,M17,CT Scan,17/01/2025 03:09:56,6
+T246,P168,Elective,Orthopedics,M17,Triage,21/03/2025 21:07:19,70
+T246,P168,Elective,Orthopedics,M17,Follow-up,26/05/2025 07:59:24,135
+T246,P168,Elective,Orthopedics,M17,Discharge - home,29/05/2025 08:01:55,138
+T246,P168,Elective,Orthopedics,M17,Consultation,31/01/2025 12:16:22,20
+T247,P041,Emergency,Cardiology,I20,Referral,13/09/2024 22:05:35,0
+T247,P041,Emergency,Cardiology,I20,Triage,14/09/2024 01:16:59,0
+T247,P041,Emergency,Cardiology,I20,Review,14/09/2024 05:16:54,0
+T247,P041,Emergency,Cardiology,I20,Treatment,19/09/2024 00:58:22,5
+T247,P041,Emergency,Cardiology,I20,Follow-up,27/09/2024 04:43:29,13
+T247,P041,Emergency,Cardiology,I20,Assessment,29/09/2024 15:21:38,15
+T247,P041,Emergency,Cardiology,I20,Consultation,29/09/2024 22:09:48,16
+T247,P041,Emergency,Cardiology,I20,Discharge - care,30/09/2024 12:07:30,16
+T248,P183,Elective,Cardiology,I50,Review,03/03/2025 14:56:52,26
+T248,P183,Elective,Cardiology,I50,Referral,05/02/2025 13:38:21,0
+T248,P183,Elective,Cardiology,I50,Assessment,06/03/2025 15:10:30,29
+T248,P183,Elective,Cardiology,I50,Angiography,08/02/2025 23:12:01,3
+T248,P183,Elective,Cardiology,I50,Discharge - home,09/03/2025 20:59:32,32
+T249,P196,Emergency,Cardiology,I20,Referral,14/03/2025 22:25:21,0
+T249,P196,Emergency,Cardiology,I20,Triage,14/03/2025 23:50:28,0
+T249,P196,Emergency,Cardiology,I20,Review,15/03/2025 02:44:24,0
+T249,P196,Emergency,Cardiology,I20,Bone Density Scan,15/03/2025 12:45:09,0
+T249,P196,Emergency,Cardiology,I20,Treatment,16/03/2025 02:19:01,1
+T249,P196,Emergency,Cardiology,I20,Assessment,16/03/2025 13:44:34,1
+T249,P196,Emergency,Cardiology,I20,Consultation,16/03/2025 16:35:46,1
+T249,P196,Emergency,Cardiology,I20,Discharge - home,17/03/2025 03:35:04,2
+T250,P079,Emergency,Orthopedics,M16,Referral,03/05/2024 16:48:28,0
+T250,P079,Emergency,Orthopedics,M16,Triage,03/05/2024 19:41:19,0
+T250,P079,Emergency,Orthopedics,M16,Review,03/05/2024 20:38:31,0
+T250,P079,Emergency,Orthopedics,M16,Echocardiogram,04/05/2024 19:35:17,1
+T250,P079,Emergency,Orthopedics,M16,Treatment,11/05/2024 05:22:31,7
+T250,P079,Emergency,Orthopedics,M16,Discharge - care,14/05/2024 12:47:12,10
