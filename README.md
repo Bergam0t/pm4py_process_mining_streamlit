@@ -6,7 +6,7 @@ This would need some more work to make it more robust and modular if intended fo
 
 ## Trying out online
 
-The app is hosted at ``
+The app is hosted at [https://simplemines.streamlit.app/](https://simplemines.streamlit.app/)
 
 > [!CAUTION]
 > Do not upload any real data when using the hosted version.
@@ -15,9 +15,10 @@ The app is hosted at ``
 
 To run the app, clone the repository to your machine.
 
-From the root of the repository folder, run `
+Set up an environment using the `requirements.txt`.
+It has been developed using Python 3.13.0
 
-
+From the root of the repository folder, run `streamlit run app.py`.
 
 # Plans and possible extensions
 
