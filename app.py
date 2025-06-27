@@ -96,11 +96,12 @@ if raw_event_log is not None:
             def generate_dfgs():
 
                 def generate_dfg(final_log, graph_type, output_filepath="dfg.png"):
-                        dfg, start_activities, end_activities = pm4py.discover_dfg(final_log)
 
                         if graph_type=="Frequency":
+                            dfg, start_activities, end_activities = pm4py.discover_dfg(final_log)
                             pm4py.save_vis_dfg(dfg, start_activities, end_activities, file_path=output_filepath)
                         elif graph_type=="Performance":
+                            dfg, start_activities, end_activities = pm4py.discover_performance_dfg(final_log)
                             pm4py.save_vis_performance_dfg(dfg, start_activities, end_activities, file_path=output_filepath)
 
                         st.image(output_filepath)
