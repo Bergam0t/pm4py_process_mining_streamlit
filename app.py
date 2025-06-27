@@ -16,7 +16,13 @@ PM4PY_TIMESTAMP_COL = "time:timestamp"
 st.set_page_config(layout="wide")
 st.title("Process Mining Helper")
 
-raw_event_log = st.file_uploader("Upload a csv file")
+use_sample = st.toggle("Use sample dataset", value=False)
+
+if use_sample:
+    raw_event_log = "healthcare_event_log.csv"
+
+else:
+    raw_event_log = st.file_uploader("Upload a csv file")
 
 if raw_event_log is not None:
     raw_event_log_df = pd.read_csv(raw_event_log)
@@ -171,7 +177,7 @@ if raw_event_log is not None:
                                 category_log = pm4py.filter_variants_top_k(category_log, k=top_variants)
 
                             if not category_log.empty:
-                                generate_dfg(category_log, graph_type=graph_type, output_filepath="dfg_{i}.png")
+                                generate_dfg(category_log, graph_type=graph_type, output_filepath=f"dfg_{value}.png")
                     else:
                         if filter_top_variants:
                             final_log = pm4py.filter_variants_top_k(final_log, k=top_variants)
