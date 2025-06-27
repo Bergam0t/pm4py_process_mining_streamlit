@@ -60,19 +60,9 @@ if raw_event_log is not None:
         value="%d/%m/%Y %H:%M:%S",
         help="Example: For '25/12/2024 14:30', use `%d/%m/%Y %H:%M`")
 
-    # raw_event_log_df["date_col_GEN"] = pd.to_datetime(raw_event_log_df[timestamp_key_col_name], format=timestamp_format).dt.date
-
-    # raw_event_log_df["date_col_GEN"] = raw_event_log_df[timestamp_key_col_name].apply(lambda x: datetime.datetime.strptime(x, timestamp_format) if type(x)==str else np.NaN)
+    # Check the user has chosen a column name for each column pm4py requires
     if "Choose a Column" not in [case_id_col_name, activity_key_col_name, timestamp_key_col_name]:
         try:
-        # raw_event_log_df["date_col_GEN"] = pd.to_datetime(
-        #     raw_event_log_df[timestamp_key_col_name],
-        #     format=timestamp_format,
-        #     errors='coerce'  # turns unparsable values into NaT
-        # )
-
-        # raw_event_log_df["date_col_GEN"] = raw_event_log_df["date_col_GEN"].dt.date
-
             # Convert to pm4py format
             event_log_df = pm4py.format_dataframe(
                 raw_event_log_df,
@@ -82,27 +72,28 @@ if raw_event_log is not None:
                 timest_format=timestamp_format
             )
 
-
-
             with st.expander("Click to view processed dataframe"):
                 st.dataframe(event_log_df)
 
-
             tab1, tab2, tab3 = st.tabs(["Directly-Follows Graphs (DFG)", "Petri Nets", "Other Plots"])
 
-
-            # # Visualisation tab
+            # Visualisation tab
             @st.fragment
             def generate_dfgs():
 
-                def generate_dfg(final_log, graph_type, output_filepath="dfg.png"):
+                def generate_dfg(final_log, graph_type, graph_direction_param, output_filepath="dfg.png"):
 
                         if graph_type=="Frequency":
                             dfg, start_activities, end_activities = pm4py.discover_dfg(final_log)
-                            pm4py.save_vis_dfg(dfg, start_activities, end_activities, file_path=output_filepath)
+                            pm4py.save_vis_dfg(dfg, start_activities, end_activities,
+                                               rankdir=graph_direction_param,
+                                               file_path=output_filepath)
+
                         elif graph_type=="Performance":
                             dfg, start_activities, end_activities = pm4py.discover_performance_dfg(final_log)
-                            pm4py.save_vis_performance_dfg(dfg, start_activities, end_activities, file_path=output_filepath)
+                            pm4py.save_vis_performance_dfg(dfg, start_activities, end_activities,
+                                                           rankdir=graph_direction_param,
+                                                           file_path=output_filepath)
 
                         st.image(output_filepath)
 
@@ -110,6 +101,9 @@ if raw_event_log is not None:
 
                 with viz_col_selectors:
                     graph_type = st.radio("Graph Type", ["Frequency", "Performance"], horizontal=True)
+
+                    graph_direction = st.radio("Graph Direction", ["Left to Right", "Top to Bottom"], horizontal=True)
+                    graph_direction_param = "LR" if graph_direction == "Left to Right" else "TB"
 
                     min_date = event_log_df[PM4PY_TIMESTAMP_COL].min().date()
                     max_date = event_log_df[PM4PY_TIMESTAMP_COL].max().date()
@@ -178,11 +172,16 @@ if raw_event_log is not None:
                                 category_log = pm4py.filter_variants_top_k(category_log, k=top_variants)
 
                             if not category_log.empty:
-                                generate_dfg(category_log, graph_type=graph_type, output_filepath=f"dfg_{value}.png")
+                                generate_dfg(category_log,
+                                             graph_type=graph_type,
+                                             graph_direction_param=graph_direction_param,
+                                             output_filepath=f"dfg_{value}.png")
                     else:
                         if filter_top_variants:
                             final_log = pm4py.filter_variants_top_k(final_log, k=top_variants)
-                        generate_dfg(final_log, graph_type=graph_type, output_filepath="dfg.png")
+                        generate_dfg(final_log, graph_type=graph_type,
+                                     graph_direction_param=graph_direction_param,
+                                     output_filepath="dfg.png")
 
             with tab1:
                 generate_dfgs()
